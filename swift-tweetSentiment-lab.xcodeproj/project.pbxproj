@@ -13,7 +13,6 @@
 		1B1F439F1D40114400256DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1F439E1D40114400256DB1 /* Assets.xcassets */; };
 		1B1F43A21D40114400256DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1F43A01D40114400256DB1 /* LaunchScreen.storyboard */; };
 		1B1F43AD1D40114400256DB1 /* swift_tweetSentiment_labTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1F43AC1D40114400256DB1 /* swift_tweetSentiment_labTests.swift */; };
-		1B1F43B81D40114400256DB1 /* swift_tweetSentiment_labUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1F43B71D40114400256DB1 /* swift_tweetSentiment_labUITests.swift */; };
 		43ED3CB2744BEC7FFC332003 /* Pods_swift_tweetSentiment_labUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3BF10EA0660402B6165D25 /* Pods_swift_tweetSentiment_labUITests.framework */; };
 		6765F9CA00720911E25400F0 /* Pods_swift_tweetSentiment_lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308543A96756E65102F5F34D /* Pods_swift_tweetSentiment_lab.framework */; };
 		695C0D25DA3F0F8CCF5A18C0 /* Pods_swift_tweetSentiment_labTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D448F1F047EBD394F8A83E11 /* Pods_swift_tweetSentiment_labTests.framework */; };
@@ -52,8 +51,6 @@
 		1B1F43AC1D40114400256DB1 /* swift_tweetSentiment_labTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_tweetSentiment_labTests.swift; sourceTree = "<group>"; };
 		1B1F43AE1D40114400256DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B1F43B31D40114400256DB1 /* swift-tweetSentiment-labUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-tweetSentiment-labUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B1F43B71D40114400256DB1 /* swift_tweetSentiment_labUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_tweetSentiment_labUITests.swift; sourceTree = "<group>"; };
-		1B1F43B91D40114400256DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		308543A96756E65102F5F34D /* Pods_swift_tweetSentiment_lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_tweetSentiment_lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B245626172B7130EC0CD29 /* Pods-swift-tweetSentiment-labUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-tweetSentiment-labUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-tweetSentiment-labUITests/Pods-swift-tweetSentiment-labUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B3BF10EA0660402B6165D25 /* Pods_swift_tweetSentiment_labUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_tweetSentiment_labUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,7 +91,6 @@
 			children = (
 				1B1F43961D40114400256DB1 /* swift-tweetSentiment-lab */,
 				1B1F43AB1D40114400256DB1 /* swift-tweetSentiment-labTests */,
-				1B1F43B61D40114400256DB1 /* swift-tweetSentiment-labUITests */,
 				1B1F43951D40114400256DB1 /* Products */,
 				66812871AB11053FF3A855B4 /* Pods */,
 				6FF07A06F35C2E0DC69B074E /* Frameworks */,
@@ -131,15 +127,6 @@
 				1B1F43AE1D40114400256DB1 /* Info.plist */,
 			);
 			path = "swift-tweetSentiment-labTests";
-			sourceTree = "<group>";
-		};
-		1B1F43B61D40114400256DB1 /* swift-tweetSentiment-labUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1B1F43B71D40114400256DB1 /* swift_tweetSentiment_labUITests.swift */,
-				1B1F43B91D40114400256DB1 /* Info.plist */,
-			);
-			path = "swift-tweetSentiment-labUITests";
 			sourceTree = "<group>";
 		};
 		66812871AB11053FF3A855B4 /* Pods */ = {
@@ -444,7 +431,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B1F43B81D40114400256DB1 /* swift_tweetSentiment_labUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
