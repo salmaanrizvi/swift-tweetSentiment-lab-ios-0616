@@ -15,6 +15,8 @@ target 'swift-tweetSentiment-lab' do
     pod 'Nimble'
     pod 'OHHTTPStubs/Swift'
     pod 'OHHTTPStubs'
+    pod 'STTwitter'
+    pod 'Swifter'
 
   end
 
