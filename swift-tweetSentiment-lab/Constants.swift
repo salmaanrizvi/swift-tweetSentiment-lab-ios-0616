@@ -9,6 +9,7 @@
 import Foundation
 
 
-//NSString *const TWITTER_KEY = @"GOOcJSI2VC9DajNOvM5oI8oXx";
-//NSString *const TWITTER_SECRET = @"nrczlQ0yJmwEDUqEsBta6yX8akhJARglJXTPJe6UuiaC1uWaCq";
-//NSString *const SENTIMENT140_BASE_URL = @"http://www.sentiment140.com/api/classify?appid=joe@flatironschool.com&language=en";
+
+let TWITTER_KEY = "GOOcJSI2VC9DajNOvM5oI8oXx"
+let TWITTER_SECRET = "nrczlQ0yJmwEDUqEsBta6yX8akhJARglJXTPJe6UuiaC1uWaCq"
+let SENTIMENT140_BASE_URL = "http://www.sentiment140.com/api/classify?appid=joe@flatironschool.com&language=en"

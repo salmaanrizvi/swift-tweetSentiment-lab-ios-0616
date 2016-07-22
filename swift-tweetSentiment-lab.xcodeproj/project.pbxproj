@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17C188262E4101FEA41CB2F5 /* Pods_swift_tweetSentiment_lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655843F2875E22E9E98E7119 /* Pods_swift_tweetSentiment_lab.framework */; };
 		1B1F43981D40114400256DB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1F43971D40114400256DB1 /* AppDelegate.swift */; };
 		1B1F439A1D40114400256DB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1F43991D40114400256DB1 /* ViewController.swift */; };
 		1B1F439D1D40114400256DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1F439B1D40114400256DB1 /* Main.storyboard */; };
 		1B1F439F1D40114400256DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1F439E1D40114400256DB1 /* Assets.xcassets */; };
 		1B1F43A21D40114400256DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1F43A01D40114400256DB1 /* LaunchScreen.storyboard */; };
 		1B1F43AD1D40114400256DB1 /* swift_tweetSentiment_labTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1F43AC1D40114400256DB1 /* swift_tweetSentiment_labTests.swift */; };
+		1B1F43D71D41575C00256DB1 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1F43CF1D41575C00256DB1 /* Nimble.framework */; };
+		1B1F43D81D41575C00256DB1 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1F43D01D41575C00256DB1 /* OHHTTPStubs.framework */; };
+		1B1F43DC1D41575C00256DB1 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1F43D41D41575C00256DB1 /* Quick.framework */; };
+		1B1F43DE1D41575C00256DB1 /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1F43D61D41575C00256DB1 /* Swifter.framework */; };
+		1B1F43E01D4157C800256DB1 /* STTwitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1F43DF1D4157C800256DB1 /* STTwitter.framework */; };
+		1B1F43E51D4163C100256DB1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1F43E41D4163C100256DB1 /* Accounts.framework */; };
+		1B1F43E71D4163CD00256DB1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1F43E61D4163CD00256DB1 /* Social.framework */; };
+		1B1F43E91D4163F200256DB1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1F43E81D4163F200256DB1 /* Security.framework */; };
 		3D7AE47C1D405B6500964D7D /* TwitterAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7AE47B1D405B6500964D7D /* TwitterAPIClient.swift */; };
 		3D7AE47E1D405BC400964D7D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7AE47D1D405BC400964D7D /* Constants.swift */; };
 		3D7AE4801D405C1300964D7D /* Sentiment140API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7AE47F1D405C1300964D7D /* Sentiment140API.swift */; };
 		3D7AE4821D405D3E00964D7D /* fakeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D7AE4811D405D3E00964D7D /* fakeJSON.json */; };
 		3D7AE4861D405DCE00964D7D /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7AE4851D405DCE00964D7D /* Twitter.framework */; };
-		3D7AE4961D40607200964D7D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7AE4951D40607200964D7D /* Nimble.framework */; };
-		3D7AE4981D40607A00964D7D /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7AE4971D40607A00964D7D /* OHHTTPStubs.framework */; };
-		3D7AE49A1D40608100964D7D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7AE4991D40608100964D7D /* Quick.framework */; };
-		3D7AE49C1D40608800964D7D /* STTwitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7AE49B1D40608800964D7D /* STTwitter.framework */; };
-		3D7AE49E1D40608F00964D7D /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7AE49D1D40608F00964D7D /* Swifter.framework */; };
+		62736B337CC8A4639C8CDA68 /* Pods_swift_tweetSentiment_labUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A6F554604EF8B07DFEE514 /* Pods_swift_tweetSentiment_labUITests.framework */; };
+		8ED3B3DA18157DE92AB6391B /* Pods_swift_tweetSentiment_labTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76FEC0ADA62E1FE92359088 /* Pods_swift_tweetSentiment_labTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,18 @@
 		1B1F43AC1D40114400256DB1 /* swift_tweetSentiment_labTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_tweetSentiment_labTests.swift; sourceTree = "<group>"; };
 		1B1F43AE1D40114400256DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B1F43B31D40114400256DB1 /* swift-tweetSentiment-labUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-tweetSentiment-labUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1F43CF1D41575C00256DB1 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../../Library/Developer/Xcode/DerivedData/swift-tweetSentiment-lab-aqflrewdgajifpepoozhsjxhlqbh/Build/Products/Debug-iphonesimulator/Nimble/Nimble.framework"; sourceTree = "<group>"; };
+		1B1F43D01D41575C00256DB1 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = "../../../Library/Developer/Xcode/DerivedData/swift-tweetSentiment-lab-aqflrewdgajifpepoozhsjxhlqbh/Build/Products/Debug-iphonesimulator/OHHTTPStubs/OHHTTPStubs.framework"; sourceTree = "<group>"; };
+		1B1F43D11D41575C00256DB1 /* Pods_swift_tweetSentiment_lab.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_swift_tweetSentiment_lab.framework; path = "Pods/../build/Debug-iphoneos/Pods_swift_tweetSentiment_lab.framework"; sourceTree = "<group>"; };
+		1B1F43D21D41575C00256DB1 /* Pods_swift_tweetSentiment_labTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_swift_tweetSentiment_labTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_swift_tweetSentiment_labTests.framework"; sourceTree = "<group>"; };
+		1B1F43D31D41575C00256DB1 /* Pods_swift_tweetSentiment_labUITests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_swift_tweetSentiment_labUITests.framework; path = "Pods/../build/Debug-iphoneos/Pods_swift_tweetSentiment_labUITests.framework"; sourceTree = "<group>"; };
+		1B1F43D41D41575C00256DB1 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../../Library/Developer/Xcode/DerivedData/swift-tweetSentiment-lab-aqflrewdgajifpepoozhsjxhlqbh/Build/Products/Debug-iphonesimulator/Quick/Quick.framework"; sourceTree = "<group>"; };
+		1B1F43D51D41575C00256DB1 /* STTwitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = STTwitter.framework; path = "Pods/../build/Debug-iphoneos/STTwitter/STTwitter.framework"; sourceTree = "<group>"; };
+		1B1F43D61D41575C00256DB1 /* Swifter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swifter.framework; path = "../../../Library/Developer/Xcode/DerivedData/swift-tweetSentiment-lab-aqflrewdgajifpepoozhsjxhlqbh/Build/Products/Debug-iphonesimulator/Swifter/Swifter.framework"; sourceTree = "<group>"; };
+		1B1F43DF1D4157C800256DB1 /* STTwitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = STTwitter.framework; path = "Pods/../build/Debug-iphoneos/STTwitter/STTwitter.framework"; sourceTree = "<group>"; };
+		1B1F43E41D4163C100256DB1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		1B1F43E61D4163CD00256DB1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		1B1F43E81D4163F200256DB1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		3D7AE47B1D405B6500964D7D /* TwitterAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPIClient.swift; sourceTree = "<group>"; };
 		3D7AE47D1D405BC400964D7D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3D7AE47F1D405C1300964D7D /* Sentiment140API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sentiment140API.swift; sourceTree = "<group>"; };
@@ -69,6 +87,9 @@
 		3D7AE49B1D40608800964D7D /* STTwitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = STTwitter.framework; path = "../../../Library/Developer/Xcode/DerivedData/swift-tweetSentiment-lab-ftjrsmumazyqtpdksyigwbpbrbwi/Build/Products/Debug-iphonesimulator/STTwitter/STTwitter.framework"; sourceTree = "<group>"; };
 		3D7AE49D1D40608F00964D7D /* Swifter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swifter.framework; path = "../../../Library/Developer/Xcode/DerivedData/swift-tweetSentiment-lab-ftjrsmumazyqtpdksyigwbpbrbwi/Build/Products/Debug-iphonesimulator/Swifter/Swifter.framework"; sourceTree = "<group>"; };
 		47B245626172B7130EC0CD29 /* Pods-swift-tweetSentiment-labUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-tweetSentiment-labUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-tweetSentiment-labUITests/Pods-swift-tweetSentiment-labUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		655843F2875E22E9E98E7119 /* Pods_swift_tweetSentiment_lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_tweetSentiment_lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A6F554604EF8B07DFEE514 /* Pods_swift_tweetSentiment_labUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_tweetSentiment_labUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76FEC0ADA62E1FE92359088 /* Pods_swift_tweetSentiment_labTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_tweetSentiment_labTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE119792B538E297B307F5E /* Pods-swift-tweetSentiment-lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-tweetSentiment-lab.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-tweetSentiment-lab/Pods-swift-tweetSentiment-lab.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,12 +98,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D7AE49E1D40608F00964D7D /* Swifter.framework in Frameworks */,
-				3D7AE49C1D40608800964D7D /* STTwitter.framework in Frameworks */,
-				3D7AE49A1D40608100964D7D /* Quick.framework in Frameworks */,
-				3D7AE4981D40607A00964D7D /* OHHTTPStubs.framework in Frameworks */,
-				3D7AE4961D40607200964D7D /* Nimble.framework in Frameworks */,
+				1B1F43E91D4163F200256DB1 /* Security.framework in Frameworks */,
+				1B1F43E71D4163CD00256DB1 /* Social.framework in Frameworks */,
+				1B1F43E51D4163C100256DB1 /* Accounts.framework in Frameworks */,
+				1B1F43E01D4157C800256DB1 /* STTwitter.framework in Frameworks */,
+				1B1F43D71D41575C00256DB1 /* Nimble.framework in Frameworks */,
+				1B1F43D81D41575C00256DB1 /* OHHTTPStubs.framework in Frameworks */,
+				1B1F43DC1D41575C00256DB1 /* Quick.framework in Frameworks */,
+				1B1F43DE1D41575C00256DB1 /* Swifter.framework in Frameworks */,
 				3D7AE4861D405DCE00964D7D /* Twitter.framework in Frameworks */,
+				17C188262E4101FEA41CB2F5 /* Pods_swift_tweetSentiment_lab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED3B3DA18157DE92AB6391B /* Pods_swift_tweetSentiment_labTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62736B337CC8A4639C8CDA68 /* Pods_swift_tweetSentiment_labUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,12 +193,27 @@
 		6FF07A06F35C2E0DC69B074E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1B1F43E81D4163F200256DB1 /* Security.framework */,
+				1B1F43E61D4163CD00256DB1 /* Social.framework */,
+				1B1F43E41D4163C100256DB1 /* Accounts.framework */,
+				1B1F43DF1D4157C800256DB1 /* STTwitter.framework */,
+				1B1F43CF1D41575C00256DB1 /* Nimble.framework */,
+				1B1F43D01D41575C00256DB1 /* OHHTTPStubs.framework */,
+				1B1F43D11D41575C00256DB1 /* Pods_swift_tweetSentiment_lab.framework */,
+				1B1F43D21D41575C00256DB1 /* Pods_swift_tweetSentiment_labTests.framework */,
+				1B1F43D31D41575C00256DB1 /* Pods_swift_tweetSentiment_labUITests.framework */,
+				1B1F43D41D41575C00256DB1 /* Quick.framework */,
+				1B1F43D51D41575C00256DB1 /* STTwitter.framework */,
+				1B1F43D61D41575C00256DB1 /* Swifter.framework */,
 				3D7AE49D1D40608F00964D7D /* Swifter.framework */,
 				3D7AE49B1D40608800964D7D /* STTwitter.framework */,
 				3D7AE4991D40608100964D7D /* Quick.framework */,
 				3D7AE4971D40607A00964D7D /* OHHTTPStubs.framework */,
 				3D7AE4951D40607200964D7D /* Nimble.framework */,
 				3D7AE4851D405DCE00964D7D /* Twitter.framework */,
+				655843F2875E22E9E98E7119 /* Pods_swift_tweetSentiment_lab.framework */,
+				A76FEC0ADA62E1FE92359088 /* Pods_swift_tweetSentiment_labTests.framework */,
+				79A6F554604EF8B07DFEE514 /* Pods_swift_tweetSentiment_labUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -183,12 +225,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B1F43BC1D40114400256DB1 /* Build configuration list for PBXNativeTarget "swift-tweetSentiment-lab" */;
 			buildPhases = (
+				5A7DB80837F1A10DC1F0ADE8 /* 📦 Check Pods Manifest.lock */,
 				475CC6E5B4D0E285731E9718 /* [CP] Check Pods Manifest.lock */,
 				1B1F43901D40114400256DB1 /* Sources */,
 				1B1F43911D40114400256DB1 /* Frameworks */,
 				1B1F43921D40114400256DB1 /* Resources */,
 				ED3278E48B259E93509962EF /* [CP] Embed Pods Frameworks */,
 				1229BD12BDF9FF7A947F015A /* [CP] Copy Pods Resources */,
+				D4196F95D299A3C0E7F76F71 /* 📦 Embed Pods Frameworks */,
+				E78080E648A4695BFE2ED988 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,12 +248,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B1F43BF1D40114400256DB1 /* Build configuration list for PBXNativeTarget "swift-tweetSentiment-labTests" */;
 			buildPhases = (
+				DADE8E0F04775F8D2E704D69 /* 📦 Check Pods Manifest.lock */,
 				B2BDB4A14276D1396409AF1A /* [CP] Check Pods Manifest.lock */,
 				1B1F43A41D40114400256DB1 /* Sources */,
 				1B1F43A51D40114400256DB1 /* Frameworks */,
 				1B1F43A61D40114400256DB1 /* Resources */,
 				1B5624BB960FFA4B8B32BDF0 /* [CP] Embed Pods Frameworks */,
 				D6BEFE33FBE1807BD995303E /* [CP] Copy Pods Resources */,
+				4FB1DF82012C3E410AB50BC9 /* 📦 Embed Pods Frameworks */,
+				0778D6BABB612F689BFE50DB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,11 +272,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B1F43C21D40114400256DB1 /* Build configuration list for PBXNativeTarget "swift-tweetSentiment-labUITests" */;
 			buildPhases = (
+				0A59FFB7E3BA27ABBDA27D2D /* 📦 Check Pods Manifest.lock */,
 				A7805EEB25A826DD44D4AA55 /* [CP] Check Pods Manifest.lock */,
 				1B1F43AF1D40114400256DB1 /* Sources */,
 				1B1F43B01D40114400256DB1 /* Frameworks */,
 				1B1F43B11D40114400256DB1 /* Resources */,
 				CBFB12B4CDE1961DA093082F /* [CP] Copy Pods Resources */,
+				A03AE6B74ACE8D45F289BB39 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,6 +362,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0778D6BABB612F689BFE50DB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-tweetSentiment-labTests/Pods-swift-tweetSentiment-labTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A59FFB7E3BA27ABBDA27D2D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		1229BD12BDF9FF7A947F015A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,6 +435,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4FB1DF82012C3E410AB50BC9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-tweetSentiment-labTests/Pods-swift-tweetSentiment-labTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A7DB80837F1A10DC1F0ADE8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A03AE6B74ACE8D45F289BB39 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-tweetSentiment-labUITests/Pods-swift-tweetSentiment-labUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A7805EEB25A826DD44D4AA55 /* [CP] Check Pods Manifest.lock */ = {
@@ -402,6 +527,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-tweetSentiment-labUITests/Pods-swift-tweetSentiment-labUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D4196F95D299A3C0E7F76F71 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-tweetSentiment-lab/Pods-swift-tweetSentiment-lab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D6BEFE33FBE1807BD995303E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,6 +555,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-tweetSentiment-labTests/Pods-swift-tweetSentiment-labTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DADE8E0F04775F8D2E704D69 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E78080E648A4695BFE2ED988 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-tweetSentiment-lab/Pods-swift-tweetSentiment-lab-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ED3278E48B259E93509962EF /* [CP] Embed Pods Frameworks */ = {

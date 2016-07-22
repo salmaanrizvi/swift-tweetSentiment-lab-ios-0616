@@ -8,189 +8,196 @@
 
 /* Begin PBXBuildFile section */
 		0102C476142BFCBB7B9D0CF81F5B23F5 /* Pods-swift-tweetSentiment-labTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA41FF988FACC2DCDCB832A06E010FD /* Pods-swift-tweetSentiment-labTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01524B45D94DD25B5652568497622907 /* String+SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772A2945E1405B6FDCE6BA406033DF77 /* String+SHA1.swift */; };
-		0184247BA6AA50141C3162DA7D5CA8AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF572708BA22B97F8445D0EC316C8FB2 /* Foundation.framework */; };
 		01989A2E2D7DDDE7F2ADD947886F527A /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8D0CD5D25FA288238DB446091CF71 /* OHHTTPStubs+NSURLSessionConfiguration.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		01A539DC2B312A0355ECD9D0A06382D0 /* STTwitterHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 229BA58B90A4F226744A79BBB707CEA7 /* STTwitterHTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01D2DD1C92EB87452CAF30B9367833C8 /* NMBObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623C222BAB7A2518A6A5CF7A5D9C43F0 /* NMBObjCMatcher.swift */; };
 		0827735D297EEABFD811FE333206FD8D /* NMBExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BB3D0C008633212C650D1F81B331CC /* NMBExpectation.swift */; };
 		0835A83C194FAEFA376E7C03BC579D77 /* Pods-swift-tweetSentiment-labUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F589F74B4F69BCBC0429B8618627F38B /* Pods-swift-tweetSentiment-labUITests-dummy.m */; };
 		099C64CF560DC424DB43BBBEC6370D8F /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B62EF3A09D9ABBE27118768EF149C68 /* ThrowError.swift */; };
+		0A3DEF8A53E06844C8FA551D025C98FB /* STTwitterOSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DCF2E636C0306749A52F3546B82967 /* STTwitterOSRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A9A1B8CB1963791ADDF67361E687CAA /* NMBStringify.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB097F4807176D9585A94AB1BF3561E /* NMBStringify.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C3C94EF4DE285ABDB09F2A6D01C2B07 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F81316156E73348AC4DB15F7F3741 /* HttpResponse.swift */; };
+		0B633E8DA2C6609954E9C632E515F0C5 /* HttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF711F4CE990D1644ACA0A7A1BED762D /* HttpRouter.swift */; };
+		0B8F8B4BFB6DCBA9F0C9A6DA5C35CB5F /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8972338EE28D3B7A29E25BDBF62BD7E2 /* Socket.swift */; };
+		0DC8CFCAA262C50DEE866C103FCD942C /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEF7B41516670106342950FD02EFB0E /* QuickTestSuite.swift */; };
+		0DCEA8BF4226C8D609A61D22C3205989 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B77505EA1A85E21236218F064173B2 /* Example.swift */; };
 		0FD4CA130F865EEB5A8C1AD6A108E8AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF572708BA22B97F8445D0EC316C8FB2 /* Foundation.framework */; };
-		1075A616462FF020CAF1ECD86BA8BF78 /* HttpServerIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956CF626D78EDB15F0D5C967B02F655B /* HttpServerIO.swift */; };
 		123DEDF0C786D4F6C285DE17FBFD54A0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E606A7FC5FB1FA97257B27BAC99A660 /* CFNetwork.framework */; };
-		12B8DEEAFB6B0BDCC198936E17C72CDA /* String+Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CE1EE4ED57EA74BBFFC35345C36CC3 /* String+Misc.swift */; };
-		13F2C16F4A03C7B68B59B5CEC5332899 /* STTwitterOSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DCF2E636C0306749A52F3546B82967 /* STTwitterOSRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14ACB130F727A9BDB98F4AA74D6254DA /* NSURLRequest+HTTPBodyTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDAD8B9B1B316C74B831718F73CF3E9 /* NSURLRequest+HTTPBodyTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		158E7E9192C8D807802C6A40CC795217 /* NSString+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A149CBBA8B318DEA06B558CDF7C3705 /* NSString+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		180091D51424B3439F1C6AE7A6832EE7 /* STTwitterStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FA9483CBA6E4F774CAA3E443FDF241 /* STTwitterStreamParser.m */; };
-		190EB31D3906183DD2BA775FCDE37BBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0A1FF71ADCFC2A187DE3A58450BF14 /* CoreGraphics.framework */; };
-		191FC88FCCDDE5D29575F5C17A0B8AC5 /* NSError+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ABA84CFD867E95C88A95FA298744B3 /* NSError+STTwitter.m */; };
+		14DADF7736D62A5CA4C3778233D1FFBB /* NSError+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = F448AFC001910942181DE260EA0CF7F3 /* NSError+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15F8A04D0BA291C77B6CDFCE8368D9A8 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B19D8DC513BA97C659C242A263CFF77 /* ErrorUtility.swift */; };
+		16FF7FF0241AB45E16F65CF1CFC4DDAA /* String+SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772A2945E1405B6FDCE6BA406033DF77 /* String+SHA1.swift */; };
 		192C4EF47D90895E51E5597323364A3C /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = C918FEACDA4B645412FC7A08E2AF4F59 /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1941A05B182F349823C059DD24ABF79A /* OHPathHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D66DB279BD244888DFC58BC057E48B1 /* OHPathHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		199C818B1BB5FFF49324D33CA68B8AD9 /* JSONSyntaxHighlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 5108245B752A5CF56E920F53909B97DA /* JSONSyntaxHighlight.m */; };
-		199F9811E481F2E7B06835BA9F4385E3 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8C5C88DB8587C68B7E686BF8C9B56A /* Process.swift */; };
-		1BB6E4881B7EEB01E976DE544D90082A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD639F997F965FBB12D0AD87F4FCDA2 /* File.swift */; };
-		1F47C734A88E6DBF0DD6A47722E7E4A9 /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEF7B41516670106342950FD02EFB0E /* QuickTestSuite.swift */; };
-		21A3BD19B3D3AC1E2AC7AED0862125E7 /* STTwitter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 792666A1DFBDD583EAF585A014669716 /* STTwitter-dummy.m */; };
+		1B764E96B3C3D0457EF0B70D8A3DB832 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449811F3D240E56DF148E6F2F732F3C /* DSL.swift */; };
+		1C8965F87BC55AFB72B3008568CE997A /* STTwitterHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CCD1E1C97973FCF0858F9A778C77C6 /* STTwitterHTML.m */; };
+		201ED59D4A4C4CAD41AA5EC238D442F9 /* STTwitterStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FA9483CBA6E4F774CAA3E443FDF241 /* STTwitterStreamParser.m */; };
 		21FCC4B725EAF5F42EDFDA386FF3EC4C /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4909F7D0F50C9FE56F117E3524EFBC4 /* BeNil.swift */; };
 		22063BF244C168FE3E9E435BBD46DCEA /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7367738374ED44D9D2CDEF4AD56E5CB3 /* OHHTTPStubsResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		22DF3BFD7437434EDAE42A93C5F04154 /* STTwitter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A68FE5BDA1B11157FB33D96075C61F0E /* STTwitter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		236E397C0E190BC2D409BBEF93A09302 /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = F3582E49B16910281F0DC21D215849E2 /* DSL.m */; };
-		242FC2EDF73D5FA87F69931D858D085A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA96D53B7C1887B793BCAD784FCBF76 /* Accounts.framework */; };
 		24AE47A6560D6EBB0AFF78BAAAB15E0F /* AsyncMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2682BA01EB95A645EAD9C3C2DBA07696 /* AsyncMatcherWrapper.swift */; };
+		255839C1CC147843970269451E2EAC8B /* STTwitterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC919BBCCDA723F903990581D207019 /* STTwitterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25D66DD81D70FB2A2EBA0034561D36F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF572708BA22B97F8445D0EC316C8FB2 /* Foundation.framework */; };
 		263465A57520B440C99D428CE2E51AE9 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEEBA47367E664C210FCCA95EA2BBA0 /* NimbleEnvironment.swift */; };
+		2680BE6EDC9EDD0554F1421800E2FE4A /* NSString+QCKSelectorName.m in Sources */ = {isa = PBXBuildFile; fileRef = 740AEFF45641894521EBAA38F868A5E0 /* NSString+QCKSelectorName.m */; };
+		26D3A591EEE3F5A0CAADE9C8233516F4 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88158012A9623BAAED2055C59C9D972 /* World+DSL.swift */; };
+		279C7972B65003CEBCDB2E3A53DF6576 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA96D53B7C1887B793BCAD784FCBF76 /* Accounts.framework */; };
 		2932634DE24F491A3FC9D04F7C6AA34C /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = E89807B92C2BECE1865A17292CBB7BEE /* OHHTTPStubs.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2AD5268C249E8645B96B5A5DF690E796 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27590C0EED246AA7A4514444EEF944C8 /* Callsite.swift */; };
+		299AA97B98EE1942EC4266CFCD93C74C /* NSDateFormatter+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8D8F8623FAF8D6E41FCBC4ED87EABE /* NSDateFormatter+STTwitter.m */; };
+		2AFD5BE961FB5B9434F1D39DA4F687BB /* STTwitterAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA009F046ADCC1C65C4E113F0985A2E /* STTwitterAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DA53EB83F96EC030D3C718D070E7002 /* OHHTTPStubsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D44A5C7BD1F1F5484455AA82F5A424A /* OHHTTPStubsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30C9457CED178442C2E5ACF396E16C28 /* STHTTPRequest+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45762609FECBC44AFCE507ACF01D8F77 /* STHTTPRequest+STTwitter.m */; };
-		30E468FFCC4EC5D3A77F27CB63234F9F /* Scopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685BDBFEF3EAF74D35EB413C200BD04C /* Scopes.swift */; };
-		328B7CAA67F382BBAD7980FE8F484A44 /* DemoServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB15A06FA4D89DDC06447EBAA1F29A /* DemoServer.swift */; };
-		333347DE2A75499CD3CC29A7279DDAFB /* WebSockets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A87D3B07F0251D678FB1F223019869F /* WebSockets.swift */; };
-		33D7CC4A34999114DC82427A8A37D48D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50F4DD6DCC84A2649949129FE071576 /* XCTest.framework */; };
+		3012CC11DE0D32116C2912021BE949FF /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A1F5413650E1058AE82DC28CA6CA7B /* Quick-dummy.m */; };
+		314C0A3EE84D341ACF8824C56E3A3560 /* STTwitterHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 229BA58B90A4F226744A79BBB707CEA7 /* STTwitterHTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3312D51A8DB8A22AE7EACE6CAF4A39D5 /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F03A57EB4CE09C19C79933CF895A3 /* QuickConfiguration.m */; };
 		35E0EBA7AA92E190AB5B4ACFCF0F61C4 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB7EDAB91224DDF6CF47E6A998F41D /* AssertionDispatcher.swift */; };
+		36569AFF8434114111AA032CF416E5B8 /* STHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B81E3160543C216BA9C2C57F85155D9 /* STHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37E9D69C5D210E5652FFF7ECAB166889 /* NSDateFormatter+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 56EAD2A04C4EC47556DFF73DB86A06AD /* NSDateFormatter+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39007AD3711A35BCFA1D853E7AB79510 /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77A9B3EF658EF7F54889FD2248A55AD /* BeLessThanOrEqual.swift */; };
-		3B2A1F0D5328ADE2C6483F17CB38DB2D /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178AE7AB482923F9155BBBAFBF58754E /* Twitter.framework */; };
 		3B78C4F35C369FBABE62D4622A67E7DF /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD3D7F52082200390F095343454B075 /* DSL.swift */; };
+		3B8E068A90947AA32CD54CB853492E50 /* Pods-swift-tweetSentiment-lab-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA87D29E3E1D925261E9017CB0EFFA2 /* Pods-swift-tweetSentiment-lab-dummy.m */; };
 		3C918E40C04067FAF57B447C0BC52B04 /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34BC6E93364744A4CB3A8AD96DDB7A1 /* BeGreaterThanOrEqualTo.swift */; };
 		3D7AF86E9032C99357D2ED046461874F /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B58FB29FAB50918966156D29A7232 /* BeGreaterThan.swift */; };
 		3F09E4D1E7C47E5A40383C745E7CE0C1 /* Pods-swift-tweetSentiment-labTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEFBAF2C4068175E7E362B5A6DA14A7 /* Pods-swift-tweetSentiment-labTests-dummy.m */; };
-		3F375C001D247DC0EEBDE020B882A48E /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66410ABD7A1D7ADEB64432DA79B397AC /* Closures.swift */; };
-		416C2C57C5A81FDB4244A46AB7B36CBF /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C2F341A76398D891E676EBCE21C07 /* World.swift */; };
+		408FF166123B3A4B31CA78EA229B946B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4607177624C20E750C67320A2B593FE5 /* UIKit.framework */; };
+		41ADF4161BB05813FCA2970C94DEBE3E /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8B01FA0D553F95C47D583A78B38C5 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41EE5E3698CC1A17046AC74B36A279E0 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F739EF409543F7C33136D7F44175658 /* RaisesException.swift */; };
-		4267EC4624FC71156CE4A430D52E798E /* Swifter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7185404BC0D84C2367F8F53042C1C39 /* Swifter-dummy.m */; };
+		4393ABFC343B35CE4EBF700D1ECC48EE /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3378FA1BE1955195D79EC5CE07167F08 /* SuiteHooks.swift */; };
+		43A1DD35E81049C1EFC6FDA1AC8B9D1C /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD9BD984F0FE697F9B1C80F48E73CAD /* HooksPhase.swift */; };
 		43B99F06587ACD844A4D09A0ED9FB66B /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD54FB3BF1C519D07A1304000133CD /* Stringers.swift */; };
-		44F3CD40B78240D4FDD39B8E23B04580 /* STHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B81E3160543C216BA9C2C57F85155D9 /* STHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50738E2BC0D41AC4F509D41ED8B3798A /* String+BASE64.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE099265B2DE2B3A7D9B107DCC32 /* String+BASE64.swift */; };
+		44AD1C3CA7AB54D728ECBFD971EA89C8 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF87A340105C8038C1E275700C36745 /* ExampleMetadata.swift */; };
+		45D048B94B173222EFCF9A711A02C890 /* NSString+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A149CBBA8B318DEA06B558CDF7C3705 /* NSString+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50DD5F421FB85AC1626CC71F78672A9C /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66410ABD7A1D7ADEB64432DA79B397AC /* Closures.swift */; };
+		50EE34E2173BBCE62F1A0CAC97E99EC6 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F81316156E73348AC4DB15F7F3741 /* HttpResponse.swift */; };
+		51C5376D7DFBDEE473165B92521A4E4D /* STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 43471672162A47350D723B84FDD330A7 /* STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5289D7499BA4A5ED209DD55FB819254F /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D665ED5DC2E7A6F62137D313D1F188 /* NMBExceptionCapture.m */; };
 		54CE3FBBD31744EFA8B0A8EADB09F50C /* NMBStringify.m in Sources */ = {isa = PBXBuildFile; fileRef = A08A93792958D3D80966DDECE7DC4AE3 /* NMBStringify.m */; };
+		55ED0D2F1AD1A68244E71CA4C7E60C2C /* JSONSyntaxHighlight.h in Headers */ = {isa = PBXBuildFile; fileRef = 39087714FA5AD07B6F122682C7DA11B8 /* JSONSyntaxHighlight.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56CA153033917F08CCDD22E94806C873 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6978014E7C76D9A8E8A5FCFB246B04A4 /* MatchError.swift */; };
+		573024F0FDE5A98B97AF4BC6ADE51FFA /* NSString+QCKSelectorName.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B986712F9E67E020BC0DAC2FB1F24C /* NSString+QCKSelectorName.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		588EF69BD1759F725E2C2EC603DE05FC /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D7408023D3F8E942623D29F1ACAABF /* OHHTTPStubsSwift.swift */; };
+		5992CE1B7660E80CC3C787AAC6C84359 /* STTwitterOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1DB5A67A4E9EFFCC6C051F9C3C13C /* STTwitterOAuth.m */; };
 		59A4C06B57864AA9BBFAE0B762DAE871 /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CD9E319B52FCA6563AE8F99E3FEBE4 /* BeLessThan.swift */; };
 		59AFC17D744CDEED360B4DF8876295BF /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AAF95EA4192E4685CC2640A48C9B6 /* Errors.swift */; };
 		5A4AC5619A05687E5EB0A4BBDC8AF154 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076EDD77C5F17E6B02B5DDD2001D0D21 /* AllPass.swift */; };
 		5B21B2BBADCCEB5AC51E0A0C99BA5B93 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C63766CF22781D43F7ED67EC5A7F0C9 /* Expression.swift */; };
-		5C7A8B36410F8182306522459A1D63E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF572708BA22B97F8445D0EC316C8FB2 /* Foundation.framework */; };
+		5B2C6C922F979BD5B892C98518B9380A /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06D03C94A6FA78F4B5479FF7DD1DA4 /* Files.swift */; };
+		5E39B61058FD9231ED679E94F1C23423 /* World+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AE911E70866361BEA06451C40165AB /* World+DSL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5EC58E909EEB5363D14EC0DE53B2BD76 /* STHTTPRequest+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45762609FECBC44AFCE507ACF01D8F77 /* STHTTPRequest+STTwitter.m */; };
 		602B5CEB21CA60AFA67B508D13282E94 /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6077524B84B241251ABEDC7549EF7BC /* BeCloseTo.swift */; };
-		62DCCFA5316D6A9245A0A3B1EFB845AF /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E112B12141E949292AFAA2361CB3B71 /* ExampleHooks.swift */; };
+		6207773A0772055C336A709D91C59E17 /* HttpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D936F3D3F5651D1FCDDFB2FACDB01C9 /* HttpParser.swift */; };
 		6445B28465C1A7900E895709BC333C23 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F4096F96E55A25B8C52D93922BD6E /* Contain.swift */; };
+		64FD469CDCBEF2E02C0479D9BA62C8E0 /* STTwitterAppOnly.h in Headers */ = {isa = PBXBuildFile; fileRef = DF67F3AAE71ACD4D638AE57D5FB8D314 /* STTwitterAppOnly.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		654793EA5B9AE7E8AFC0F5639DCF5441 /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 85AB6C25C2910DA06971D40F938D0CFF /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656DC3C16374FE5304CBDEF965D0E13E /* STTwitterStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 725550354FA65143C6695564F4343F7A /* STTwitterStreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		663071EB110EF79A3E0E3887A27D3017 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6718D8C01CA3F639F246E50F8C39B31 /* NSBundle+CurrentTestBundle.swift */; };
+		6723FBD786B499657D46C1CB9F4C2ACC /* WebSockets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A87D3B07F0251D678FB1F223019869F /* WebSockets.swift */; };
 		684A7E4C24ADAAB1B497B5F658036FC2 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FD1ED3FF60C572AF39FEED5B96C805 /* Functional.swift */; };
+		6A0E4D3B9DDF3CD4C1C876C3CE51AEA3 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178AE7AB482923F9155BBBAFBF58754E /* Twitter.framework */; };
 		6F58600633E3C9F3067D9631B11D1612 /* Pods-swift-tweetSentiment-labUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50594E3623D77C3E544ACA841405C71A /* Pods-swift-tweetSentiment-labUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7070E1BDFFD9D6D40C6ED465BD5C58CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF572708BA22B97F8445D0EC316C8FB2 /* Foundation.framework */; };
 		7164BBF578E7543B1707DBC453A6AF27 /* OHHTTPStubs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 586C535A8AE1A4C562BD6CAC8F4AB348 /* OHHTTPStubs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7715DA8FCCD74DD169798CED0E578DD7 /* STTwitter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A68FE5BDA1B11157FB33D96075C61F0E /* STTwitter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7969AA5DD1FB9D69EF029D33171B062A /* NSString+QCKSelectorName.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B986712F9E67E020BC0DAC2FB1F24C /* NSString+QCKSelectorName.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7F0EC25D87DAAC038CD20C2B256C3A8D /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = E27DC4F71E378619162BE8E84488B2D4 /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7416EC38C58D85408BC544F0781D1A47 /* BAVPlistNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D1E68795B37D035CB09774C6A768A /* BAVPlistNode.m */; };
+		74BB9BB5D2E18CC2ACAF18E16C06DF15 /* STTwitterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 92921A863BB399FAF2B83BFBB1EAC8B5 /* STTwitterAPI.m */; };
+		7860C28A57445414136CB9A10E256174 /* Scopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685BDBFEF3EAF74D35EB413C200BD04C /* Scopes.swift */; };
+		79B8F41265E7760BCD837016CBF3028F /* String+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BC7BB9346B0BF3211DA0CD2F89EFFE /* String+FileName.swift */; };
+		7A8565B40FE664C5BF46438654D9FA56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF572708BA22B97F8445D0EC316C8FB2 /* Foundation.framework */; };
+		7E80524065443034D7B0486156255550 /* STTwitterOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E64AE91AF9FE74BC396630F869508956 /* STTwitterOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F8AC53F92F56C3319DD733CAFB9DD58 /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7E3741D9DD46CD5B6D7B0D678EE411 /* BeAKindOf.swift */; };
-		7FC1852E8C1485A04C74C0126F34C96E /* JSONSyntaxHighlight.h in Headers */ = {isa = PBXBuildFile; fileRef = 39087714FA5AD07B6F122682C7DA11B8 /* JSONSyntaxHighlight.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FDA47E4FBF1BA2AC0350B781D01C4BC /* HttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF711F4CE990D1644ACA0A7A1BED762D /* HttpRouter.swift */; };
+		7FADB04D580EFDB1F32203B0349CEAC8 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27590C0EED246AA7A4514444EEF944C8 /* Callsite.swift */; };
 		812A89BB2E8D5301C5D856181F276779 /* XCTestObservationCenter+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 831DAAFAE76EDA40A33E4344070E09B5 /* XCTestObservationCenter+Register.m */; };
 		84096B6A35169794FED89CD737DF2E1C /* NSURLRequest+HTTPBodyTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 558F1B7020C48A5C6528E49942A6DE16 /* NSURLRequest+HTTPBodyTesting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		859DB1DB053B5702FF34CAA1F5299091 /* OHHTTPStubs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 638FEBE1309D92A58A86DE4E5C251F9F /* OHHTTPStubs-dummy.m */; };
 		866830C585216CA87A15D078A28C410A /* CurrentTestCaseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = A0228EDC8949C7B89835EF10DCEF7101 /* CurrentTestCaseTracker.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		86CABA37F13570B1F105D4F2CB54E4D4 /* NSDateFormatter+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8D8F8623FAF8D6E41FCBC4ED87EABE /* NSDateFormatter+STTwitter.m */; };
-		8A7B909D2C09C11FC59AECBEC6DB77F3 /* STTwitterAppOnly.h in Headers */ = {isa = PBXBuildFile; fileRef = DF67F3AAE71ACD4D638AE57D5FB8D314 /* STTwitterAppOnly.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B2B8AF1A91C8EF99028B3148DB40E62 /* NSError+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = F448AFC001910942181DE260EA0CF7F3 /* NSError+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C958024C991833E14F449420E800AB7 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88158012A9623BAAED2055C59C9D972 /* World+DSL.swift */; };
-		8D50DDFDF52DC4AAFD2ED199352A6933 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD9BD984F0FE697F9B1C80F48E73CAD /* HooksPhase.swift */; };
+		8728515C37F3D0E6A7B632527C80425F /* HttpServerIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956CF626D78EDB15F0D5C967B02F655B /* HttpServerIO.swift */; };
+		8B98568FF7991E88F9FD6B0E51842C4D /* STTwitter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 792666A1DFBDD583EAF585A014669716 /* STTwitter-dummy.m */; };
+		8C574A43E120DE7E7B631925F08250D5 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8C5C88DB8587C68B7E686BF8C9B56A /* Process.swift */; };
+		8C607AF86B244C5BE4A73342D12481FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0A1FF71ADCFC2A187DE3A58450BF14 /* CoreGraphics.framework */; };
+		8DF9B2077C20FEFB56AC6AD7E1F75C33 /* Pods-swift-tweetSentiment-lab-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5AC370A87139A472E9FE95D2181B534 /* Pods-swift-tweetSentiment-lab-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DFE23F2C7973BC8A159168AFC2FB8C3 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940D54A0024359C4BB813BA256645565 /* MatcherFunc.swift */; };
-		9111E442788191C28C7FF6D882A7B10C /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF082B6ED2CBB362822A7AF502839E9 /* QuickSpec.m */; };
 		9296C7ABDE9E5894D47CD74E7F78F968 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004DC7C30AD07A1CC2B79CE82958FCE /* Match.swift */; };
 		92BC58B0158D9DFE7D59C341A85D4359 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224795C1AB087501C7F23EE162C17AB4 /* Async.swift */; };
-		92F97F71093994A29D8D79C2C5D24403 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3378FA1BE1955195D79EC5CE07167F08 /* SuiteHooks.swift */; };
-		934ECE58132BD653A783EEB3130012CA /* STTwitterOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1DB5A67A4E9EFFCC6C051F9C3C13C /* STTwitterOAuth.m */; };
-		952A60C35BDCD314DA2556C09C26F627 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B77505EA1A85E21236218F064173B2 /* Example.swift */; };
-		95465E5E314056C6C87D4D975DAA9188 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B907798BA35F07A0FB6E5128997C809 /* QCKDSL.m */; };
-		957492CE133CAF3E3F69BD258633B622 /* STTwitterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC919BBCCDA723F903990581D207019 /* STTwitterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		937E3E09E592C6C92251B8B79E7BDC82 /* JSONSyntaxHighlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 5108245B752A5CF56E920F53909B97DA /* JSONSyntaxHighlight.m */; };
+		93AB01754509491142BD09A5047826D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF572708BA22B97F8445D0EC316C8FB2 /* Foundation.framework */; };
 		95B296109ADBC4C4C63FA1D8D5C56874 /* OHHTTPStubsResponse+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = D08788E1DB1D26EC76B2B5EC63EBC365 /* OHHTTPStubsResponse+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95F54B9537875729AE90B472EA5D39BF /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C82D7AAA7F35D368B68C67484243798 /* Expectation.swift */; };
 		96151E0516F0FAA666C25A0EC52FDAA6 /* Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC4585AEC75D6A96B40CDAFD4A6F940 /* Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96FC75D5FDA6CC4CBBB864E255594E66 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8972338EE28D3B7A29E25BDBF62BD7E2 /* Socket.swift */; };
-		988D98DAF24ED0E5F3F12ABF6E5D6937 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B19D8DC513BA97C659C242A263CFF77 /* ErrorUtility.swift */; };
-		9C45B8420B4A492A4613877F88270342 /* STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 43471672162A47350D723B84FDD330A7 /* STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A3A1902EBC8CF8185FF4FD906D2AC6 /* HttpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460BB7A04B7B31050068330290E33C67 /* HttpServer.swift */; };
 		9D904B7EAD0EC56AD12E704757CAA640 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228DCC8A69100F3596C504E0DB3DC76C /* SourceLocation.swift */; };
+		9E47736A8E13303C356F9A6B08D75182 /* BAVPlistNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F468DF04919EFE73F884F91DAC2B09A /* BAVPlistNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EFD3EE819EB1FAA5EDE26E8DAA483CD /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15B8F14F8ED17979B37EEDE54FB575 /* EndWith.swift */; };
-		A0FFB533692480BF80B9E06067AFB782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF572708BA22B97F8445D0EC316C8FB2 /* Foundation.framework */; };
 		A18E791645056D5563206104A3E3AD87 /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930A8A06E758FEAA7BFBF8081B02C761 /* PostNotification.swift */; };
-		A1B391EF2F8CB48F485276825CC39623 /* BAVPlistNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F468DF04919EFE73F884F91DAC2B09A /* BAVPlistNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1CF7559277E0619C962DAA7ADB5479F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4607177624C20E750C67320A2B593FE5 /* UIKit.framework */; };
 		A1F69DD3961B60955EFD28E2BDF446E8 /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = 674140CF2E4935FBDE214A3F6148CAAF /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A33B0BC38B121968F0583BF177CF0A7C /* NSString+QCKSelectorName.m in Sources */ = {isa = PBXBuildFile; fileRef = 740AEFF45641894521EBAA38F868A5E0 /* NSString+QCKSelectorName.m */; };
-		A4E9FAC70B5A8FC792E3013E9DA57B0E /* STTwitterOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 6743E6B071E1564BD8811E6D8A6BAFCB /* STTwitterOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5B792443E4CBB9ED8E4274FAB769F7C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140856B3D0AC4B1CB13B977E1E382B0F /* Filter.swift */; };
-		A6E2DDA77E7F18FCFD1B0E06705AB5BF /* STTwitterHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CCD1E1C97973FCF0858F9A778C77C6 /* STTwitterHTML.m */; };
-		A994CC96F488CB569ABCD466B1C512DC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA7854EB2DE725FE2CBF9BC260036CF /* QuartzCore.framework */; };
+		A36051826CAC96871B2461ADD188D30B /* STTwitterOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE8ADE50E108D8EFAB9EB2B70F2666 /* STTwitterOS.m */; };
+		A40369CA8E7DD446A89F395B9CB704E5 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E112B12141E949292AFAA2361CB3B71 /* ExampleHooks.swift */; };
+		A5C5F4701ECF7A9D61560834E42B3568 /* STHTTPRequest+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8560C617736931B2CCE2ED27BA2883 /* STHTTPRequest+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5ED10D58844CAEF755F0EFF814B0D0A /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = E27DC4F71E378619162BE8E84488B2D4 /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A89D11037EF88F8D9EAD443CBD759E55 /* NSError+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ABA84CFD867E95C88A95FA298744B3 /* NSError+STTwitter.m */; };
 		A9DA3829FA747E599023EF1394CD2EB5 /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD61E04C288995214EDBE278E3FAA26 /* BeVoid.swift */; };
-		A9F6B2E4F16C1BAC058ABF9B946FC653 /* STTwitterAppOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC80C0C9E088F8918E2FB6F5DA97FD /* STTwitterAppOnly.m */; };
-		AAE934FF1668B40A9D5038BD32817BF9 /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F03A57EB4CE09C19C79933CF895A3 /* QuickConfiguration.m */; };
-		AC535E9454E96FCD187B7C7822C96457 /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7260800B472A6513B95C752465BF6176 /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADAF6CF886FC1EB4F22518398E0ECB2E /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01228732B50BBA5900DA2AA09EA5F53 /* ExampleGroup.swift */; };
+		AB8638E019C9A80C5BDE9C358B9BD22D /* DemoServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB15A06FA4D89DDC06447EBAA1F29A /* DemoServer.swift */; };
+		AE33522739CAA57AC1E9DBB64BB3004C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA7854EB2DE725FE2CBF9BC260036CF /* QuartzCore.framework */; };
+		AE3DFEE2E73FB3614A9F8BEA8B798510 /* Swifter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D30B77DDB365FFE739A1273C1D09A0C2 /* Swifter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B09B3461D9467BA8A230048F95C26E0F /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A0DE1C04D375A667A7959A2D5FEC30 /* NimbleXCTestHandler.swift */; };
+		B0F9B76EE62F9E1E25B4EB4225A54E4A /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF082B6ED2CBB362822A7AF502839E9 /* QuickSpec.m */; };
+		B1770DAB2A43AC4E94F0C16CDF5344DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF572708BA22B97F8445D0EC316C8FB2 /* Foundation.framework */; };
+		B2D0A80DACA6B9B7B34B387AF0F28016 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B907798BA35F07A0FB6E5128997C809 /* QCKDSL.m */; };
+		B38258369023E2DC359548DA79BDA82E /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7260800B472A6513B95C752465BF6176 /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B47F2B1F7F5FEC4CE62F09832392E842 /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70BFFBD2A52083605C4CD81229AE2932 /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6D97771B81986D5C38C2AC4F80417F1 /* Pods-swift-tweetSentiment-lab-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5AC370A87139A472E9FE95D2181B534 /* Pods-swift-tweetSentiment-lab-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B78A3DF47B5FEF7D9BE0B7660500211B /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125148EA17FAE8EA0A6C8CCB69AD1E88 /* Equal.swift */; };
-		B8779B8C29E7737B2C9A385A91B88741 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF87A340105C8038C1E275700C36745 /* ExampleMetadata.swift */; };
+		B85C20BF1C7508CF5C33BEF93FF0D02F /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140856B3D0AC4B1CB13B977E1E382B0F /* Filter.swift */; };
+		BA4C50D93E7899AB84347ACF4680A5D1 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB90EEBAFCE6155A29ABB15782F595 /* Configuration.swift */; };
 		BA7362188C5D17958A5080EE299A90FC /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9223D1ACB923037F297EF248550F653 /* BeginWith.swift */; };
+		BB1671EA2E59097DBE71ED2E6ED13977 /* STTwitterOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 6743E6B071E1564BD8811E6D8A6BAFCB /* STTwitterOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBF88FA3F28C0906DBB78314A8E50A01 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F254A643C646FBAAC7017016B5BFC40C /* AssertionRecorder.swift */; };
-		BBFDBF30E2EB2FCE750FB57E449900E4 /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 85AB6C25C2910DA06971D40F938D0CFF /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCF63566264CE0BB166C4E9A5E5813B4 /* OHHTTPStubsMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2EA95633ACB465F207FD6C8481BAEC /* OHHTTPStubsMethodSwizzling.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BEA76FA499D5899BD98DBD891FF921D4 /* SatisfyAnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7242304002F07AF33803846EDF52E7CB /* SatisfyAnyOf.swift */; };
-		BFD4811245C3B6E25102E527C26BD4AE /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06D03C94A6FA78F4B5479FF7DD1DA4 /* Files.swift */; };
+		BECB6443313CD920708E3D5A9CCA107D /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F85C660251E4D15FA195FD4B287AC72 /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0345C65A3FA0104DE3E1FA0D234C12A /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B805FAE07ED577A611BA8B7B4DB5A4 /* QuickSelectedTestSuiteBuilder.swift */; };
 		C079CD4727E4D264F23A72DB56732ED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF572708BA22B97F8445D0EC316C8FB2 /* Foundation.framework */; };
-		C6A574F3C93F60E1010438965B7AF141 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6718D8C01CA3F639F246E50F8C39B31 /* NSBundle+CurrentTestBundle.swift */; };
+		C2F214509C6CCBC8695363AC9D1877D7 /* NSString+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = C303E7DADCE12D9034C76EC57115B52D /* NSString+STTwitter.m */; };
+		C6C2F5ADAA601C9383E5277B970A59BD /* STTwitterRequestProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 907109079FFA2D44A8F89C1A9EC67ED1 /* STTwitterRequestProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C755136BFCDFA000C44C8BBCA065E4BE /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B241B52B519E3B0D8FC12D7F04785 /* HaveCount.swift */; };
-		C76451FE65448F62651CB66A89A00412 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF572708BA22B97F8445D0EC316C8FB2 /* Foundation.framework */; };
-		C79E05B684B11749CC5758B7FF34CE69 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 16925705D210959D3C4CF24B074C60AA /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C81BEDE79545C013BEBBA0363480FD47 /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295F52B30DFE2C15230417EA89B54BB /* DSL+Wait.swift */; };
-		C9BA725B4D05E91380DCDE12E7CCEBBE /* STTwitterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 92921A863BB399FAF2B83BFBB1EAC8B5 /* STTwitterAPI.m */; };
-		CBC8EF396CD0AF2267A43BCFBA739D0F /* BAVPlistNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D1E68795B37D035CB09774C6A768A /* BAVPlistNode.m */; };
-		CD7357F8762E21F1322FBE020A2F7E75 /* NSDateFormatter+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 56EAD2A04C4EC47556DFF73DB86A06AD /* NSDateFormatter+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFEF2A8FB92CA14EA5FF0966E4065804 /* STTwitterRequestProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 907109079FFA2D44A8F89C1A9EC67ED1 /* STTwitterRequestProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2683BE17CB35295E933477D1C027798 /* HttpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460BB7A04B7B31050068330290E33C67 /* HttpServer.swift */; };
+		CA018BF4C7F766244628A61D004B478D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50F4DD6DCC84A2649949129FE071576 /* XCTest.framework */; };
 		D2E06DA27082B98F83A6D1662D3194E1 /* OHHTTPStubs.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCAA54B1A21BF43EC22C145E96A8E4F /* OHHTTPStubs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3D893F24289B0842E487988A11EE643 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449811F3D240E56DF148E6F2F732F3C /* DSL.swift */; };
 		D45096E61E72E772AF46C3BECA03583B /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E7FFC4378C4D9D567B5539B6E8B3C /* BeLogical.swift */; };
-		D585D783243D02454156349F87768741 /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F85C660251E4D15FA195FD4B287AC72 /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5CA5D94C1ABA6A2BBC28CF05FF82384 /* World+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AE911E70866361BEA06451C40165AB /* World+DSL.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D60CA3F18854372CC85405AD554430FC /* HttpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D936F3D3F5651D1FCDDFB2FACDB01C9 /* HttpParser.swift */; };
 		D8E0C72DDE130D4471BB48D2081FD235 /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E1A5C40353022EFABD9CE56A4B392 /* Nimble-dummy.m */; };
 		D8F5F0031D9C440657C729EFCD3A4C6B /* OHHTTPStubsResponse+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C952A6E9C826B71EC955D42F8079D /* OHHTTPStubsResponse+JSON.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DBDCB71E4BF1FC50D27A51AF92925A37 /* Pods-swift-tweetSentiment-lab-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA87D29E3E1D925261E9017CB0EFFA2 /* Pods-swift-tweetSentiment-lab-dummy.m */; };
-		DE045EA8E30AD3ACE6D142ACCE0DA934 /* STHTTPRequest+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8560C617736931B2CCE2ED27BA2883 /* STHTTPRequest+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBB457BA07FA54E871833E7F031F103C /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E72DD55E65BD85BCD55681EDCABB3F /* HttpRequest.swift */; };
 		DE5F3C28CC8C40B8031C784835B3577D /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9311C736457828A7B0D75D2262C4B19 /* MatcherProtocols.swift */; };
-		DFE4600324E1D54408D43B96FD8E78BE /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4479610843AF0902A6E56D249FCF9DFB /* STHTTPRequest.m */; };
 		E008736F5514F44C0E07DD052A7B6D67 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF46F7FBFC57321BDCBE3685200C760 /* AdapterProtocols.swift */; };
-		E2FFB223A922278878C4C37795F4D22D /* STTwitterAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA009F046ADCC1C65C4E113F0985A2E /* STTwitterAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4456E41CB41EA5F60BCB65E3AA0F50E /* Swifter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D30B77DDB365FFE739A1273C1D09A0C2 /* Swifter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E115841044D64547AFDA773A3E0BF54F /* STTwitterAppOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DC80C0C9E088F8918E2FB6F5DA97FD /* STTwitterAppOnly.m */; };
+		E13D4016E6B8D34A9DF2A543E64F3125 /* String+BASE64.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE099265B2DE2B3A7D9B107DCC32 /* String+BASE64.swift */; };
+		E2C02B3EAC2EB0254206FB9880E9458E /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD5795B0B03447E21B0B2841E7F46DC /* XCTestSuite+QuickTestSuiteBuilder.m */; };
+		E401C3628617AD8E942B6533C0F42E30 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 16925705D210959D3C4CF24B074C60AA /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8DE03684C234604E472C27ECD8F6B70 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A3258C5B8955A3A675276DC4D5F1A7 /* BeAnInstanceOf.swift */; };
-		E903F13F14ECC394AB2CCDA1579548E4 /* STTwitterOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE8ADE50E108D8EFAB9EB2B70F2666 /* STTwitterOS.m */; };
+		EB2F95627E09E11ACBC2CE6AD4360E89 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD639F997F965FBB12D0AD87F4FCDA2 /* File.swift */; };
 		EB9C4D2E388805F9157AA356D4A857D5 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7822B35A5F470C67D366728F88935392 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECCDA914CAF9BAE64B0D01685C078028 /* STTwitterOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E64AE91AF9FE74BC396630F869508956 /* STTwitterOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEB18DACB1FDFF96525312F5987F5683 /* STTwitterStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 725550354FA65143C6695564F4343F7A /* STTwitterStreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EED43C2BD2A8343D99A3C4D929701226 /* String+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BC7BB9346B0BF3211DA0CD2F89EFFE /* String+FileName.swift */; };
+		EDD704467D94F027919FBADE7463916A /* Swifter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7185404BC0D84C2367F8F53042C1C39 /* Swifter-dummy.m */; };
+		EE0508DBEB9BE32FEC23305E419D9538 /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01228732B50BBA5900DA2AA09EA5F53 /* ExampleGroup.swift */; };
+		EFB5992F6001643EDF858EDAB58B688F /* STTwitterOSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A8C67DCEA5BEAE2266E4D25BE399A /* STTwitterOSRequest.m */; };
 		EFE20ADE81CBE47F13D76267285C4A35 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB9AAE6C239D490677460AF85EA72B7 /* FailureMessage.swift */; };
-		F2955AF48D90BCA0ED80398747F602D2 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E72DD55E65BD85BCD55681EDCABB3F /* HttpRequest.swift */; };
-		F464C13A998F0082F40B0021397A9A78 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B805FAE07ED577A611BA8B7B4DB5A4 /* QuickSelectedTestSuiteBuilder.swift */; };
+		F77501D1D89162DDE60D5BD6D858ADBE /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C2F341A76398D891E676EBCE21C07 /* World.swift */; };
 		F90742117F43668C0C80BCEC6264CFF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF572708BA22B97F8445D0EC316C8FB2 /* Foundation.framework */; };
-		F947A1C059665EB94AB02E0F9C84406E /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D8B01FA0D553F95C47D583A78B38C5 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F993D63EFD94846CAF0A46B6264CB319 /* String+Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CE1EE4ED57EA74BBFFC35345C36CC3 /* String+Misc.swift */; };
+		F9B16CEE5E7B3B2D77E6D3AF1A6CF82A /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4479610843AF0902A6E56D249FCF9DFB /* STHTTPRequest.m */; };
 		FA145DCE313D583C0431D178FB32C96F /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26ABE4033EAE6EF33D7B4CBD89D1214E /* BeEmpty.swift */; };
-		FA3CD2EA3625C19DDBA5C4A740AD37B6 /* STTwitterOSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A8C67DCEA5BEAE2266E4D25BE399A /* STTwitterOSRequest.m */; };
 		FBC443B2D6DC3D721D0A1AB5C3E05719 /* OHHTTPStubsMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DCFE1F8DDACDE71482E1DC151273E3 /* OHHTTPStubsMethodSwizzling.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FCC03F23C91D1DCE5159938544A06CB5 /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD5795B0B03447E21B0B2841E7F46DC /* XCTestSuite+QuickTestSuiteBuilder.m */; };
 		FCFAC0A69469635C9986B36CC881BE4B /* OHPathHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B824E7C0AAC58F4C2EF9440AFA7E669B /* OHPathHelpers.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FD709EAE0EDB356D93C3F7C556B59C37 /* NSString+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = C303E7DADCE12D9034C76EC57115B52D /* NSString+STTwitter.m */; };
-		FD76E0C7473FFB0E549B48A1B917F470 /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A1F5413650E1058AE82DC28CA6CA7B /* Quick-dummy.m */; };
-		FED8E3230E9898A0A06BF473563A95ED /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB90EEBAFCE6155A29ABB15782F595 /* Configuration.swift */; };
 		FF0366DFC597745127A6D92AB83F0D60 /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFC9450445E810028F0CBD4AC0FB15 /* BeIdenticalTo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0470EEB7AEF7975CC88EDCD4656B14F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 367734FE00C31AF9E1B03FC724A92CFE;
+			remoteInfo = Quick;
+		};
 		12BE410BB37A25D49F7FD539E906C850 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 89F315D9DD5F2AFA93E2EFD34D5FAC9F;
+			remoteGlobalIDString = 367734FE00C31AF9E1B03FC724A92CFE;
 			remoteInfo = Quick;
 		};
 		3C2B729AA4359AC07BAE5A8E74F2293D /* PBXContainerItemProxy */ = {
@@ -200,11 +207,32 @@
 			remoteGlobalIDString = 819D98B2274D0D02398DA2FD14346272;
 			remoteInfo = OHHTTPStubs;
 		};
+		5D6580FF62EF67381E8B7113F0B31790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4BDAC1498999AAC4A52EB29B2563B5C;
+			remoteInfo = Swifter;
+		};
 		7B6135517755E4198242574AD03F8E07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A09AD16687268CAABA278F9A2D2FE55C;
+			remoteGlobalIDString = 92C9C7DE0492E351698186EB4DC679E8;
+			remoteInfo = STTwitter;
+		};
+		804B0657BAEEEED6E6810E30DF57BFA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40FF1C77152F384080A1A02E90A36DA9;
+			remoteInfo = Nimble;
+		};
+		A68C2DCD4E1F24980013317F1E1568BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C9C7DE0492E351698186EB4DC679E8;
 			remoteInfo = STTwitter;
 		};
 		AB2FCC69414E95531D9931DAB81EB9C3 /* PBXContainerItemProxy */ = {
@@ -214,11 +242,18 @@
 			remoteGlobalIDString = 40FF1C77152F384080A1A02E90A36DA9;
 			remoteInfo = Nimble;
 		};
+		DDF99C56A6222251DE33F3EF2341F707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 819D98B2274D0D02398DA2FD14346272;
+			remoteInfo = OHHTTPStubs;
+		};
 		E51E09B41BB8DA1BCE136F9AE3703DFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E899A50945EAFDDFCBDE8D1E3C41173B;
+			remoteGlobalIDString = A4BDAC1498999AAC4A52EB29B2563B5C;
 			remoteInfo = Swifter;
 		};
 /* End PBXContainerItemProxy section */
@@ -457,28 +492,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1EA573C588CE43814A499475C6A3A184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8565B40FE664C5BF46438654D9FA56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AEB214C4624CFFB836828479E3187E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D66DD81D70FB2A2EBA0034561D36F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCA4AE2908CD37F1A83339E546F098D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279C7972B65003CEBCDB2E3A53DF6576 /* Accounts.framework in Frameworks */,
+				8C607AF86B244C5BE4A73342D12481FB /* CoreGraphics.framework in Frameworks */,
+				B1770DAB2A43AC4E94F0C16CDF5344DC /* Foundation.framework in Frameworks */,
+				AE33522739CAA57AC1E9DBB64BB3004C /* QuartzCore.framework in Frameworks */,
+				6A0E4D3B9DDF3CD4C1C876C3CE51AEA3 /* Twitter.framework in Frameworks */,
+				408FF166123B3A4B31CA78EA229B946B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E2505E87469EAA660D9A46C197ECAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AB01754509491142BD09A5047826D5 /* Foundation.framework in Frameworks */,
+				CA018BF4C7F766244628A61D004B478D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		373C782851A1DD7181650A6754DBDB93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0FD4CA130F865EEB5A8C1AD6A108E8AD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6ABDF8F3D379E2D8EE223817027D95E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C7A8B36410F8182306522459A1D63E8 /* Foundation.framework in Frameworks */,
-				33D7CC4A34999114DC82427A8A37D48D /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFCB7291CA8156B05CED7BD5AC22E732 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C76451FE65448F62651CB66A89A00412 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,27 +552,6 @@
 			files = (
 				123DEDF0C786D4F6C285DE17FBFD54A0 /* CFNetwork.framework in Frameworks */,
 				F90742117F43668C0C80BCEC6264CFF0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF202178E5AC9755E625BC8CBE6CA9BE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A0FFB533692480BF80B9E06067AFB782 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F17FFD6E768F8D435AE1A18C921B5211 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				242FC2EDF73D5FA87F69931D858D085A /* Accounts.framework in Frameworks */,
-				190EB31D3906183DD2BA775FCDE37BBC /* CoreGraphics.framework in Frameworks */,
-				0184247BA6AA50141C3162DA7D5CA8AC /* Foundation.framework in Frameworks */,
-				A994CC96F488CB569ABCD466B1C512DC /* QuartzCore.framework in Frameworks */,
-				3B2A1F0D5328ADE2C6483F17CB38DB2D /* Twitter.framework in Frameworks */,
-				A1CF7559277E0619C962DAA7ADB5479F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -946,36 +981,36 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		03FEB95A79867463D3CCE47A0DB32DA5 /* Headers */ = {
+		47B8C47911B8B6AF1BFAECAB9FDF48CA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D97771B81986D5C38C2AC4F80417F1 /* Pods-swift-tweetSentiment-lab-umbrella.h in Headers */,
+				8DF9B2077C20FEFB56AC6AD7E1F75C33 /* Pods-swift-tweetSentiment-lab-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A1015DD4305B99CA172E5C496B6818A /* Headers */ = {
+		5F54B19AE19683087B2D65C8ADCDC6B9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B391EF2F8CB48F485276825CC39623 /* BAVPlistNode.h in Headers */,
-				7FC1852E8C1485A04C74C0126F34C96E /* JSONSyntaxHighlight.h in Headers */,
-				CD7357F8762E21F1322FBE020A2F7E75 /* NSDateFormatter+STTwitter.h in Headers */,
-				8B2B8AF1A91C8EF99028B3148DB40E62 /* NSError+STTwitter.h in Headers */,
-				158E7E9192C8D807802C6A40CC795217 /* NSString+STTwitter.h in Headers */,
-				DE045EA8E30AD3ACE6D142ACCE0DA934 /* STHTTPRequest+STTwitter.h in Headers */,
-				44F3CD40B78240D4FDD39B8E23B04580 /* STHTTPRequest.h in Headers */,
-				7715DA8FCCD74DD169798CED0E578DD7 /* STTwitter-umbrella.h in Headers */,
-				9C45B8420B4A492A4613877F88270342 /* STTwitter.h in Headers */,
-				E2FFB223A922278878C4C37795F4D22D /* STTwitterAPI.h in Headers */,
-				8A7B909D2C09C11FC59AECBEC6DB77F3 /* STTwitterAppOnly.h in Headers */,
-				01A539DC2B312A0355ECD9D0A06382D0 /* STTwitterHTML.h in Headers */,
-				A4E9FAC70B5A8FC792E3013E9DA57B0E /* STTwitterOAuth.h in Headers */,
-				ECCDA914CAF9BAE64B0D01685C078028 /* STTwitterOS.h in Headers */,
-				13F2C16F4A03C7B68B59B5CEC5332899 /* STTwitterOSRequest.h in Headers */,
-				957492CE133CAF3E3F69BD258633B622 /* STTwitterProtocol.h in Headers */,
-				CFEF2A8FB92CA14EA5FF0966E4065804 /* STTwitterRequestProtocol.h in Headers */,
-				EEB18DACB1FDFF96525312F5987F5683 /* STTwitterStreamParser.h in Headers */,
+				9E47736A8E13303C356F9A6B08D75182 /* BAVPlistNode.h in Headers */,
+				55ED0D2F1AD1A68244E71CA4C7E60C2C /* JSONSyntaxHighlight.h in Headers */,
+				37E9D69C5D210E5652FFF7ECAB166889 /* NSDateFormatter+STTwitter.h in Headers */,
+				14DADF7736D62A5CA4C3778233D1FFBB /* NSError+STTwitter.h in Headers */,
+				45D048B94B173222EFCF9A711A02C890 /* NSString+STTwitter.h in Headers */,
+				A5C5F4701ECF7A9D61560834E42B3568 /* STHTTPRequest+STTwitter.h in Headers */,
+				36569AFF8434114111AA032CF416E5B8 /* STHTTPRequest.h in Headers */,
+				22DF3BFD7437434EDAE42A93C5F04154 /* STTwitter-umbrella.h in Headers */,
+				51C5376D7DFBDEE473165B92521A4E4D /* STTwitter.h in Headers */,
+				2AFD5BE961FB5B9434F1D39DA4F687BB /* STTwitterAPI.h in Headers */,
+				64FD469CDCBEF2E02C0479D9BA62C8E0 /* STTwitterAppOnly.h in Headers */,
+				314C0A3EE84D341ACF8824C56E3A3560 /* STTwitterHTML.h in Headers */,
+				BB1671EA2E59097DBE71ED2E6ED13977 /* STTwitterOAuth.h in Headers */,
+				7E80524065443034D7B0486156255550 /* STTwitterOS.h in Headers */,
+				0A3DEF8A53E06844C8FA551D025C98FB /* STTwitterOSRequest.h in Headers */,
+				255839C1CC147843970269451E2EAC8B /* STTwitterProtocol.h in Headers */,
+				C6C2F5ADAA601C9383E5277B970A59BD /* STTwitterRequestProtocol.h in Headers */,
+				656DC3C16374FE5304CBDEF965D0E13E /* STTwitterStreamParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -987,26 +1022,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		705CB3F5C302C77DABA373D0F5E4BF2E /* Headers */ = {
+		99A9AED15BDDDAD60214997E6D709EED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7969AA5DD1FB9D69EF029D33171B062A /* NSString+QCKSelectorName.h in Headers */,
-				F947A1C059665EB94AB02E0F9C84406E /* QCKDSL.h in Headers */,
-				AC535E9454E96FCD187B7C7822C96457 /* Quick-umbrella.h in Headers */,
-				C79E05B684B11749CC5758B7FF34CE69 /* Quick.h in Headers */,
-				BBFDBF30E2EB2FCE750FB57E449900E4 /* QuickConfiguration.h in Headers */,
-				D585D783243D02454156349F87768741 /* QuickSpec.h in Headers */,
-				D5CA5D94C1ABA6A2BBC28CF05FF82384 /* World+DSL.h in Headers */,
-				7F0EC25D87DAAC038CD20C2B256C3A8D /* World.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4D9D3C126B2DD3E4816FAF3AB588974 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4456E41CB41EA5F60BCB65E3AA0F50E /* Swifter-umbrella.h in Headers */,
+				573024F0FDE5A98B97AF4BC6ADE51FFA /* NSString+QCKSelectorName.h in Headers */,
+				41ADF4161BB05813FCA2970C94DEBE3E /* QCKDSL.h in Headers */,
+				B38258369023E2DC359548DA79BDA82E /* Quick-umbrella.h in Headers */,
+				E401C3628617AD8E942B6533C0F42E30 /* Quick.h in Headers */,
+				654793EA5B9AE7E8AFC0F5639DCF5441 /* QuickConfiguration.h in Headers */,
+				BECB6443313CD920708E3D5A9CCA107D /* QuickSpec.h in Headers */,
+				5E39B61058FD9231ED679E94F1C23423 /* World+DSL.h in Headers */,
+				A5ED10D58844CAEF755F0EFF814B0D0A /* World.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1046,9 +1073,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F91A2779B273B7B4D1F3345600F87056 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3DFEE2E73FB3614A9F8BEA8B798510 /* Swifter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		367734FE00C31AF9E1B03FC724A92CFE /* Quick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C9C463F8DE57E10B2BEC0353C4849B8 /* Build configuration list for PBXNativeTarget "Quick" */;
+			buildPhases = (
+				882BA1921AE876656E76ECDF612817AC /* Sources */,
+				35E2505E87469EAA660D9A46C197ECAF /* Frameworks */,
+				99A9AED15BDDDAD60214997E6D709EED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quick;
+			productName = Quick;
+			productReference = DEB954E0C1BC79F48DA8DDB4E7FA1088 /* Quick.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		40FF1C77152F384080A1A02E90A36DA9 /* Nimble */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4964CB88DC1058EA701972205BBB4A0 /* Build configuration list for PBXNativeTarget "Nimble" */;
@@ -1088,23 +1140,6 @@
 			productReference = 2E3A366E493E90617FFC91A6FAF98F9C /* Pods_swift_tweetSentiment_labTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7F0ACD55237401CF17715393C464264C /* Pods-swift-tweetSentiment-lab */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CED9506302F8D2497AFC8A4AEE044A67 /* Build configuration list for PBXNativeTarget "Pods-swift-tweetSentiment-lab" */;
-			buildPhases = (
-				3F1A3E27404CA4A9B3C4DA50E78025F1 /* Sources */,
-				EF202178E5AC9755E625BC8CBE6CA9BE /* Frameworks */,
-				03FEB95A79867463D3CCE47A0DB32DA5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-swift-tweetSentiment-lab";
-			productName = "Pods-swift-tweetSentiment-lab";
-			productReference = B7B0AAD472C9C80AFB60F9DC8175D8D5 /* Pods_swift_tweetSentiment_lab.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		819D98B2274D0D02398DA2FD14346272 /* OHHTTPStubs */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67D196FE8224D50F7BC173969AE60562 /* Build configuration list for PBXNativeTarget "OHHTTPStubs" */;
@@ -1122,30 +1157,13 @@
 			productReference = 0E9D3F0439AF91D90616D463C9685EA6 /* OHHTTPStubs.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		89F315D9DD5F2AFA93E2EFD34D5FAC9F /* Quick */ = {
+		92C9C7DE0492E351698186EB4DC679E8 /* STTwitter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB2B2E24D00D9F1D6B982F53812E929C /* Build configuration list for PBXNativeTarget "Quick" */;
+			buildConfigurationList = FC33374A200FB1F38A447A994B979D68 /* Build configuration list for PBXNativeTarget "STTwitter" */;
 			buildPhases = (
-				55C0F4834BB63722E9468CD0CCC50E11 /* Sources */,
-				6ABDF8F3D379E2D8EE223817027D95E7 /* Frameworks */,
-				705CB3F5C302C77DABA373D0F5E4BF2E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Quick;
-			productName = Quick;
-			productReference = DEB954E0C1BC79F48DA8DDB4E7FA1088 /* Quick.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A09AD16687268CAABA278F9A2D2FE55C /* STTwitter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4CB67A8C93D6AE783B23CE7D52D322C3 /* Build configuration list for PBXNativeTarget "STTwitter" */;
-			buildPhases = (
-				73CC3947F97168300F85D28F06EB18BD /* Sources */,
-				F17FFD6E768F8D435AE1A18C921B5211 /* Frameworks */,
-				0A1015DD4305B99CA172E5C496B6818A /* Headers */,
+				DF7B5851964B1D9FF1C928254D7398F4 /* Sources */,
+				2DCA4AE2908CD37F1A83339E546F098D /* Frameworks */,
+				5F54B19AE19683087B2D65C8ADCDC6B9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1156,13 +1174,13 @@
 			productReference = 1B1DA38816D0950A29CAFD23DB734C23 /* STTwitter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E899A50945EAFDDFCBDE8D1E3C41173B /* Swifter */ = {
+		A4BDAC1498999AAC4A52EB29B2563B5C /* Swifter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7362116C1DC1F7F096AEF638ED208CDC /* Build configuration list for PBXNativeTarget "Swifter" */;
+			buildConfigurationList = 99387A1C7D9DF777C0D49C63364B0754 /* Build configuration list for PBXNativeTarget "Swifter" */;
 			buildPhases = (
-				852E62EBE2FA179DCE7C36CFDC384D9B /* Sources */,
-				BFCB7291CA8156B05CED7BD5AC22E732 /* Frameworks */,
-				B4D9D3C126B2DD3E4816FAF3AB588974 /* Headers */,
+				B7C49892E9DA4826CC14944A03A3242D /* Sources */,
+				1EA573C588CE43814A499475C6A3A184 /* Frameworks */,
+				F91A2779B273B7B4D1F3345600F87056 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1171,6 +1189,28 @@
 			name = Swifter;
 			productName = Swifter;
 			productReference = 3713A31122729C0F74E680799861156D /* Swifter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEA3D5F59DBB1A9672D0FD73928CED6E /* Pods-swift-tweetSentiment-lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74322E345B0AD407B987435974E3F295 /* Build configuration list for PBXNativeTarget "Pods-swift-tweetSentiment-lab" */;
+			buildPhases = (
+				894737A63D9FC10DC0E3597C13EB8CC2 /* Sources */,
+				24AEB214C4624CFFB836828479E3187E /* Frameworks */,
+				47B8C47911B8B6AF1BFAECAB9FDF48CA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F3D5C44604AB0BD5E8993AE3A79520 /* PBXTargetDependency */,
+				F2E3BC6E8F831510B83EE49ACE8E9E50 /* PBXTargetDependency */,
+				F8B350C85E88E62B74326C881D316321 /* PBXTargetDependency */,
+				BA6A71713E42E82853C6C6E5B424D88F /* PBXTargetDependency */,
+				44245DDB6129D78B98D7096BEA918EA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-swift-tweetSentiment-lab";
+			productName = "Pods-swift-tweetSentiment-lab";
+			productReference = B7B0AAD472C9C80AFB60F9DC8175D8D5 /* Pods_swift_tweetSentiment_lab.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F59018A06F1A463EAAD66F907ADF0158 /* Pods-swift-tweetSentiment-labUITests */ = {
@@ -1213,25 +1253,17 @@
 			targets = (
 				40FF1C77152F384080A1A02E90A36DA9 /* Nimble */,
 				819D98B2274D0D02398DA2FD14346272 /* OHHTTPStubs */,
-				7F0ACD55237401CF17715393C464264C /* Pods-swift-tweetSentiment-lab */,
+				EEA3D5F59DBB1A9672D0FD73928CED6E /* Pods-swift-tweetSentiment-lab */,
 				50B890C216F73DF7174A7E0C25977748 /* Pods-swift-tweetSentiment-labTests */,
 				F59018A06F1A463EAAD66F907ADF0158 /* Pods-swift-tweetSentiment-labUITests */,
-				89F315D9DD5F2AFA93E2EFD34D5FAC9F /* Quick */,
-				A09AD16687268CAABA278F9A2D2FE55C /* STTwitter */,
-				E899A50945EAFDDFCBDE8D1E3C41173B /* Swifter */,
+				367734FE00C31AF9E1B03FC724A92CFE /* Quick */,
+				92C9C7DE0492E351698186EB4DC679E8 /* STTwitter */,
+				A4BDAC1498999AAC4A52EB29B2563B5C /* Swifter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F1A3E27404CA4A9B3C4DA50E78025F1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBDCB71E4BF1FC50D27A51AF92925A37 /* Pods-swift-tweetSentiment-lab-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		48AE5F6A6BC1CC0328D35EC2621B440C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1288,37 +1320,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55C0F4834BB63722E9468CD0CCC50E11 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AD5268C249E8645B96B5A5DF690E796 /* Callsite.swift in Sources */,
-				3F375C001D247DC0EEBDE020B882A48E /* Closures.swift in Sources */,
-				FED8E3230E9898A0A06BF473563A95ED /* Configuration.swift in Sources */,
-				D3D893F24289B0842E487988A11EE643 /* DSL.swift in Sources */,
-				988D98DAF24ED0E5F3F12ABF6E5D6937 /* ErrorUtility.swift in Sources */,
-				952A60C35BDCD314DA2556C09C26F627 /* Example.swift in Sources */,
-				ADAF6CF886FC1EB4F22518398E0ECB2E /* ExampleGroup.swift in Sources */,
-				62DCCFA5316D6A9245A0A3B1EFB845AF /* ExampleHooks.swift in Sources */,
-				B8779B8C29E7737B2C9A385A91B88741 /* ExampleMetadata.swift in Sources */,
-				A5B792443E4CBB9ED8E4274FAB769F7C /* Filter.swift in Sources */,
-				8D50DDFDF52DC4AAFD2ED199352A6933 /* HooksPhase.swift in Sources */,
-				C6A574F3C93F60E1010438965B7AF141 /* NSBundle+CurrentTestBundle.swift in Sources */,
-				A33B0BC38B121968F0583BF177CF0A7C /* NSString+QCKSelectorName.m in Sources */,
-				95465E5E314056C6C87D4D975DAA9188 /* QCKDSL.m in Sources */,
-				FD76E0C7473FFB0E549B48A1B917F470 /* Quick-dummy.m in Sources */,
-				AAE934FF1668B40A9D5038BD32817BF9 /* QuickConfiguration.m in Sources */,
-				F464C13A998F0082F40B0021397A9A78 /* QuickSelectedTestSuiteBuilder.swift in Sources */,
-				9111E442788191C28C7FF6D882A7B10C /* QuickSpec.m in Sources */,
-				1F47C734A88E6DBF0DD6A47722E7E4A9 /* QuickTestSuite.swift in Sources */,
-				EED43C2BD2A8343D99A3C4D929701226 /* String+FileName.swift in Sources */,
-				92F97F71093994A29D8D79C2C5D24403 /* SuiteHooks.swift in Sources */,
-				8C958024C991833E14F449420E800AB7 /* World+DSL.swift in Sources */,
-				416C2C57C5A81FDB4244A46AB7B36CBF /* World.swift in Sources */,
-				FCC03F23C91D1DCE5159938544A06CB5 /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6C89F23FB2E975D3FFC20C7CA6EB781A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1327,49 +1328,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73CC3947F97168300F85D28F06EB18BD /* Sources */ = {
+		882BA1921AE876656E76ECDF612817AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBC8EF396CD0AF2267A43BCFBA739D0F /* BAVPlistNode.m in Sources */,
-				199C818B1BB5FFF49324D33CA68B8AD9 /* JSONSyntaxHighlight.m in Sources */,
-				86CABA37F13570B1F105D4F2CB54E4D4 /* NSDateFormatter+STTwitter.m in Sources */,
-				191FC88FCCDDE5D29575F5C17A0B8AC5 /* NSError+STTwitter.m in Sources */,
-				FD709EAE0EDB356D93C3F7C556B59C37 /* NSString+STTwitter.m in Sources */,
-				30C9457CED178442C2E5ACF396E16C28 /* STHTTPRequest+STTwitter.m in Sources */,
-				DFE4600324E1D54408D43B96FD8E78BE /* STHTTPRequest.m in Sources */,
-				21A3BD19B3D3AC1E2AC7AED0862125E7 /* STTwitter-dummy.m in Sources */,
-				C9BA725B4D05E91380DCDE12E7CCEBBE /* STTwitterAPI.m in Sources */,
-				A9F6B2E4F16C1BAC058ABF9B946FC653 /* STTwitterAppOnly.m in Sources */,
-				A6E2DDA77E7F18FCFD1B0E06705AB5BF /* STTwitterHTML.m in Sources */,
-				934ECE58132BD653A783EEB3130012CA /* STTwitterOAuth.m in Sources */,
-				E903F13F14ECC394AB2CCDA1579548E4 /* STTwitterOS.m in Sources */,
-				FA3CD2EA3625C19DDBA5C4A740AD37B6 /* STTwitterOSRequest.m in Sources */,
-				180091D51424B3439F1C6AE7A6832EE7 /* STTwitterStreamParser.m in Sources */,
+				7FADB04D580EFDB1F32203B0349CEAC8 /* Callsite.swift in Sources */,
+				50DD5F421FB85AC1626CC71F78672A9C /* Closures.swift in Sources */,
+				BA4C50D93E7899AB84347ACF4680A5D1 /* Configuration.swift in Sources */,
+				1B764E96B3C3D0457EF0B70D8A3DB832 /* DSL.swift in Sources */,
+				15F8A04D0BA291C77B6CDFCE8368D9A8 /* ErrorUtility.swift in Sources */,
+				0DCEA8BF4226C8D609A61D22C3205989 /* Example.swift in Sources */,
+				EE0508DBEB9BE32FEC23305E419D9538 /* ExampleGroup.swift in Sources */,
+				A40369CA8E7DD446A89F395B9CB704E5 /* ExampleHooks.swift in Sources */,
+				44AD1C3CA7AB54D728ECBFD971EA89C8 /* ExampleMetadata.swift in Sources */,
+				B85C20BF1C7508CF5C33BEF93FF0D02F /* Filter.swift in Sources */,
+				43A1DD35E81049C1EFC6FDA1AC8B9D1C /* HooksPhase.swift in Sources */,
+				663071EB110EF79A3E0E3887A27D3017 /* NSBundle+CurrentTestBundle.swift in Sources */,
+				2680BE6EDC9EDD0554F1421800E2FE4A /* NSString+QCKSelectorName.m in Sources */,
+				B2D0A80DACA6B9B7B34B387AF0F28016 /* QCKDSL.m in Sources */,
+				3012CC11DE0D32116C2912021BE949FF /* Quick-dummy.m in Sources */,
+				3312D51A8DB8A22AE7EACE6CAF4A39D5 /* QuickConfiguration.m in Sources */,
+				C0345C65A3FA0104DE3E1FA0D234C12A /* QuickSelectedTestSuiteBuilder.swift in Sources */,
+				B0F9B76EE62F9E1E25B4EB4225A54E4A /* QuickSpec.m in Sources */,
+				0DC8CFCAA262C50DEE866C103FCD942C /* QuickTestSuite.swift in Sources */,
+				79B8F41265E7760BCD837016CBF3028F /* String+FileName.swift in Sources */,
+				4393ABFC343B35CE4EBF700D1ECC48EE /* SuiteHooks.swift in Sources */,
+				26D3A591EEE3F5A0CAADE9C8233516F4 /* World+DSL.swift in Sources */,
+				F77501D1D89162DDE60D5BD6D858ADBE /* World.swift in Sources */,
+				E2C02B3EAC2EB0254206FB9880E9458E /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		852E62EBE2FA179DCE7C36CFDC384D9B /* Sources */ = {
+		894737A63D9FC10DC0E3597C13EB8CC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				328B7CAA67F382BBAD7980FE8F484A44 /* DemoServer.swift in Sources */,
-				1BB6E4881B7EEB01E976DE544D90082A /* File.swift in Sources */,
-				BFD4811245C3B6E25102E527C26BD4AE /* Files.swift in Sources */,
-				D60CA3F18854372CC85405AD554430FC /* HttpParser.swift in Sources */,
-				F2955AF48D90BCA0ED80398747F602D2 /* HttpRequest.swift in Sources */,
-				0C3C94EF4DE285ABDB09F2A6D01C2B07 /* HttpResponse.swift in Sources */,
-				7FDA47E4FBF1BA2AC0350B781D01C4BC /* HttpRouter.swift in Sources */,
-				D2683BE17CB35295E933477D1C027798 /* HttpServer.swift in Sources */,
-				1075A616462FF020CAF1ECD86BA8BF78 /* HttpServerIO.swift in Sources */,
-				199F9811E481F2E7B06835BA9F4385E3 /* Process.swift in Sources */,
-				30E468FFCC4EC5D3A77F27CB63234F9F /* Scopes.swift in Sources */,
-				96FC75D5FDA6CC4CBBB864E255594E66 /* Socket.swift in Sources */,
-				50738E2BC0D41AC4F509D41ED8B3798A /* String+BASE64.swift in Sources */,
-				12B8DEEAFB6B0BDCC198936E17C72CDA /* String+Misc.swift in Sources */,
-				01524B45D94DD25B5652568497622907 /* String+SHA1.swift in Sources */,
-				4267EC4624FC71156CE4A430D52E798E /* Swifter-dummy.m in Sources */,
-				333347DE2A75499CD3CC29A7279DDAFB /* WebSockets.swift in Sources */,
+				3B8E068A90947AA32CD54CB853492E50 /* Pods-swift-tweetSentiment-lab-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1389,11 +1383,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B7C49892E9DA4826CC14944A03A3242D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8638E019C9A80C5BDE9C358B9BD22D /* DemoServer.swift in Sources */,
+				EB2F95627E09E11ACBC2CE6AD4360E89 /* File.swift in Sources */,
+				5B2C6C922F979BD5B892C98518B9380A /* Files.swift in Sources */,
+				6207773A0772055C336A709D91C59E17 /* HttpParser.swift in Sources */,
+				DBB457BA07FA54E871833E7F031F103C /* HttpRequest.swift in Sources */,
+				50EE34E2173BBCE62F1A0CAC97E99EC6 /* HttpResponse.swift in Sources */,
+				0B633E8DA2C6609954E9C632E515F0C5 /* HttpRouter.swift in Sources */,
+				96A3A1902EBC8CF8185FF4FD906D2AC6 /* HttpServer.swift in Sources */,
+				8728515C37F3D0E6A7B632527C80425F /* HttpServerIO.swift in Sources */,
+				8C574A43E120DE7E7B631925F08250D5 /* Process.swift in Sources */,
+				7860C28A57445414136CB9A10E256174 /* Scopes.swift in Sources */,
+				0B8F8B4BFB6DCBA9F0C9A6DA5C35CB5F /* Socket.swift in Sources */,
+				E13D4016E6B8D34A9DF2A543E64F3125 /* String+BASE64.swift in Sources */,
+				F993D63EFD94846CAF0A46B6264CB319 /* String+Misc.swift in Sources */,
+				16FF7FF0241AB45E16F65CF1CFC4DDAA /* String+SHA1.swift in Sources */,
+				EDD704467D94F027919FBADE7463916A /* Swifter-dummy.m in Sources */,
+				6723FBD786B499657D46C1CB9F4C2ACC /* WebSockets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA27DAA83065E1E159220E27FC6B7739 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3F09E4D1E7C47E5A40383C745E7CE0C1 /* Pods-swift-tweetSentiment-labTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7B5851964B1D9FF1C928254D7398F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7416EC38C58D85408BC544F0781D1A47 /* BAVPlistNode.m in Sources */,
+				937E3E09E592C6C92251B8B79E7BDC82 /* JSONSyntaxHighlight.m in Sources */,
+				299AA97B98EE1942EC4266CFCD93C74C /* NSDateFormatter+STTwitter.m in Sources */,
+				A89D11037EF88F8D9EAD443CBD759E55 /* NSError+STTwitter.m in Sources */,
+				C2F214509C6CCBC8695363AC9D1877D7 /* NSString+STTwitter.m in Sources */,
+				5EC58E909EEB5363D14EC0DE53B2BD76 /* STHTTPRequest+STTwitter.m in Sources */,
+				F9B16CEE5E7B3B2D77E6D3AF1A6CF82A /* STHTTPRequest.m in Sources */,
+				8B98568FF7991E88F9FD6B0E51842C4D /* STTwitter-dummy.m in Sources */,
+				74BB9BB5D2E18CC2ACAF18E16C06DF15 /* STTwitterAPI.m in Sources */,
+				E115841044D64547AFDA773A3E0BF54F /* STTwitterAppOnly.m in Sources */,
+				1C8965F87BC55AFB72B3008568CE997A /* STTwitterHTML.m in Sources */,
+				5992CE1B7660E80CC3C787AAC6C84359 /* STTwitterOAuth.m in Sources */,
+				A36051826CAC96871B2461ADD188D30B /* STTwitterOS.m in Sources */,
+				EFB5992F6001643EDF858EDAB58B688F /* STTwitterOSRequest.m in Sources */,
+				201ED59D4A4C4CAD41AA5EC238D442F9 /* STTwitterStreamParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1415,25 +1455,55 @@
 		294A99089D714885C0296034E14B7B3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Swifter;
-			target = E899A50945EAFDDFCBDE8D1E3C41173B /* Swifter */;
+			target = A4BDAC1498999AAC4A52EB29B2563B5C /* Swifter */;
 			targetProxy = E51E09B41BB8DA1BCE136F9AE3703DFE /* PBXContainerItemProxy */;
+		};
+		44245DDB6129D78B98D7096BEA918EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swifter;
+			target = A4BDAC1498999AAC4A52EB29B2563B5C /* Swifter */;
+			targetProxy = 5D6580FF62EF67381E8B7113F0B31790 /* PBXContainerItemProxy */;
+		};
+		47F3D5C44604AB0BD5E8993AE3A79520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Nimble;
+			target = 40FF1C77152F384080A1A02E90A36DA9 /* Nimble */;
+			targetProxy = 804B0657BAEEEED6E6810E30DF57BFA6 /* PBXContainerItemProxy */;
 		};
 		525C484B2DD4D7D372AE63C0B34A5BDE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = STTwitter;
-			target = A09AD16687268CAABA278F9A2D2FE55C /* STTwitter */;
+			target = 92C9C7DE0492E351698186EB4DC679E8 /* STTwitter */;
 			targetProxy = 7B6135517755E4198242574AD03F8E07 /* PBXContainerItemProxy */;
 		};
 		B44A74F3B8CB16D07F45A0773689DAB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Quick;
-			target = 89F315D9DD5F2AFA93E2EFD34D5FAC9F /* Quick */;
+			target = 367734FE00C31AF9E1B03FC724A92CFE /* Quick */;
 			targetProxy = 12BE410BB37A25D49F7FD539E906C850 /* PBXContainerItemProxy */;
+		};
+		BA6A71713E42E82853C6C6E5B424D88F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = STTwitter;
+			target = 92C9C7DE0492E351698186EB4DC679E8 /* STTwitter */;
+			targetProxy = A68C2DCD4E1F24980013317F1E1568BB /* PBXContainerItemProxy */;
+		};
+		F2E3BC6E8F831510B83EE49ACE8E9E50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OHHTTPStubs;
+			target = 819D98B2274D0D02398DA2FD14346272 /* OHHTTPStubs */;
+			targetProxy = DDF99C56A6222251DE33F3EF2341F707 /* PBXContainerItemProxy */;
+		};
+		F8B350C85E88E62B74326C881D316321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Quick;
+			target = 367734FE00C31AF9E1B03FC724A92CFE /* Quick */;
+			targetProxy = 0470EEB7AEF7975CC88EDCD4656B14F4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1EED0BC0FB842291CED4BDF4715D6C87 /* Debug */ = {
+		099380835D239717F49C44FE5409CE06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F21FFD439BC224BA406F93FC3A951A8 /* Quick.xcconfig */;
 			buildSettings = {
@@ -1463,38 +1533,9 @@
 			};
 			name = Debug;
 		};
-		29AFA398FDA6C1D5B74AFF6DBA49C03C /* Debug */ = {
+		2913AC58F87F256F12FB47098473F0FF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B480274AF7A471581F4C63A669F79557 /* STTwitter.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/STTwitter/STTwitter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/STTwitter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/STTwitter/STTwitter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = STTwitter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3055F92E677040604E5F1B458C67D312 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD1767F89969FEE9DC193C8FF62F5821 /* Pods-swift-tweetSentiment-lab.release.xcconfig */;
+			baseConfigurationReference = DE9E76192AC9B2C3A3C870CE10B95FBA /* Swifter.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1505,18 +1546,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-swift-tweetSentiment-lab/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Swifter/Swifter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swifter/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-swift-tweetSentiment-lab/Pods-swift-tweetSentiment-lab.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_swift_tweetSentiment_lab;
+				PRODUCT_NAME = Swifter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1596,34 +1633,39 @@
 			};
 			name = Release;
 		};
-		468C66F46A5179AB8D24D7B27F843C25 /* Release */ = {
+		479E9CF80994AB8B972B559243E9926A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F21FFD439BC224BA406F93FC3A951A8 /* Quick.xcconfig */;
+			baseConfigurationReference = D734F744FEB7E81F2DF2EB1A6B5A35BF /* Pods-swift-tweetSentiment-lab.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Quick/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-swift-tweetSentiment-lab/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Quick;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swift-tweetSentiment-lab/Pods-swift-tweetSentiment-lab.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_swift_tweetSentiment_lab;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		483AE4906DA1AD1B04D9BFA5D3D59C5B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1654,13 +1696,13 @@
 			};
 			name = Release;
 		};
-		543FE726B5206CD3EDDD30B62236147F /* Debug */ = {
+		4C59C8BFABCD86C2B79F9F42B2B7791D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D734F744FEB7E81F2DF2EB1A6B5A35BF /* Pods-swift-tweetSentiment-lab.debug.xcconfig */;
+			baseConfigurationReference = FD1767F89969FEE9DC193C8FF62F5821 /* Pods-swift-tweetSentiment-lab.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1673,7 +1715,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-swift-tweetSentiment-lab/Pods-swift-tweetSentiment-lab.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1685,7 +1727,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1728,6 +1770,35 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		641A9FB143C09EDB2A90E0D4DDAE82FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B480274AF7A471581F4C63A669F79557 /* STTwitter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/STTwitter/STTwitter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STTwitter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/STTwitter/STTwitter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = STTwitter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		772F1A8A11DE191EC483085877B39C22 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1825,6 +1896,35 @@
 			};
 			name = Debug;
 		};
+		9212D7BBCE58BA79457A10B06BE0EFF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F21FFD439BC224BA406F93FC3A951A8 /* Quick.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Quick/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9BF99CF249AD111F5F62D19B49044E14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2EF65B55EEA4295558DD330C14FBF99 /* OHHTTPStubs.xcconfig */;
@@ -1888,7 +1988,7 @@
 			};
 			name = Debug;
 		};
-		C2D1AD77FA88EE643C2BEAFDF2B49FE1 /* Debug */ = {
+		D19AE75EB02FE2517A18E7D57DE77F85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE9E76192AC9B2C3A3C870CE10B95FBA /* Swifter.xcconfig */;
 			buildSettings = {
@@ -1918,34 +2018,34 @@
 			};
 			name = Debug;
 		};
-		F43BB9EA85DB1BF16CF21C8FCE457068 /* Release */ = {
+		DA2D305F32635BF1DCFDB3AD2D46951D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE9E76192AC9B2C3A3C870CE10B95FBA /* Swifter.xcconfig */;
+			baseConfigurationReference = B480274AF7A471581F4C63A669F79557 /* STTwitter.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Swifter/Swifter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Swifter/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/STTwitter/STTwitter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STTwitter/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Swifter;
+				MODULEMAP_FILE = "Target Support Files/STTwitter/STTwitter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = STTwitter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		FD63C8F168BD704F532EE782C924D7B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1977,35 +2077,6 @@
 			};
 			name = Debug;
 		};
-		FF26DE7D397E49DF0EB31A1BB01D1266 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B480274AF7A471581F4C63A669F79557 /* STTwitter.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/STTwitter/STTwitter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/STTwitter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/STTwitter/STTwitter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = STTwitter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2014,6 +2085,15 @@
 			buildConfigurations = (
 				A8664CCBFB1D80CDAF345C9A61DA6E65 /* Debug */,
 				38E39C108F1DFEFFF285ADD43DE7B36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C9C463F8DE57E10B2BEC0353C4849B8 /* Build configuration list for PBXNativeTarget "Quick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099380835D239717F49C44FE5409CE06 /* Debug */,
+				9212D7BBCE58BA79457A10B06BE0EFF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2027,15 +2107,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CB67A8C93D6AE783B23CE7D52D322C3 /* Build configuration list for PBXNativeTarget "STTwitter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				29AFA398FDA6C1D5B74AFF6DBA49C03C /* Debug */,
-				FF26DE7D397E49DF0EB31A1BB01D1266 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		67D196FE8224D50F7BC173969AE60562 /* Build configuration list for PBXNativeTarget "OHHTTPStubs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2045,11 +2116,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7362116C1DC1F7F096AEF638ED208CDC /* Build configuration list for PBXNativeTarget "Swifter" */ = {
+		74322E345B0AD407B987435974E3F295 /* Build configuration list for PBXNativeTarget "Pods-swift-tweetSentiment-lab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2D1AD77FA88EE643C2BEAFDF2B49FE1 /* Debug */,
-				F43BB9EA85DB1BF16CF21C8FCE457068 /* Release */,
+				479E9CF80994AB8B972B559243E9926A /* Debug */,
+				4C59C8BFABCD86C2B79F9F42B2B7791D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99387A1C7D9DF777C0D49C63364B0754 /* Build configuration list for PBXNativeTarget "Swifter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19AE75EB02FE2517A18E7D57DE77F85 /* Debug */,
+				2913AC58F87F256F12FB47098473F0FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2063,20 +2143,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CED9506302F8D2497AFC8A4AEE044A67 /* Build configuration list for PBXNativeTarget "Pods-swift-tweetSentiment-lab" */ = {
+		FC33374A200FB1F38A447A994B979D68 /* Build configuration list for PBXNativeTarget "STTwitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				543FE726B5206CD3EDDD30B62236147F /* Debug */,
-				3055F92E677040604E5F1B458C67D312 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DB2B2E24D00D9F1D6B982F53812E929C /* Build configuration list for PBXNativeTarget "Quick" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1EED0BC0FB842291CED4BDF4715D6C87 /* Debug */,
-				468C66F46A5179AB8D24D7B27F843C25 /* Release */,
+				DA2D305F32635BF1DCFDB3AD2D46951D /* Debug */,
+				641A9FB143C09EDB2A90E0D4DDAE82FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

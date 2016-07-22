@@ -8,8 +8,20 @@
 
 import Foundation
 import Twitter
+import STTwitter
+import Swifter
+import Accounts
 
+class TwitterAPIClient {
+    
+    class func getAveragePolarityOfTweetsFromQuery(query: String, completion: (polarity: Int)-> Void){
+        
+//        let twitter = STTwitterAPI.twitterAPIOSWithAccount(ACAccount!, delegate: STTwitterAPIOSProtocol!)
 
+        
+    
+    }
+}
 
 //#import "FISTwitterAPIClient.h"
 //#import "FISConstants.h"
