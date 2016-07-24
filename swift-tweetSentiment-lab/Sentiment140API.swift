@@ -20,8 +20,6 @@ class Sentiment140API {
         
         for tweet in tweets{
             
-            print(tweet["text"])
-            
             let sentiment140URL = Sentiment140API.urlFromTweet(tweet, query: query)
             let task = mySession.dataTaskWithURL(sentiment140URL, completionHandler: { (data, response, error) in
                 
@@ -31,7 +29,9 @@ class Sentiment140API {
                 }
                 
                 do{
-                    let resultsDictionary = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.AllowFragments) as! NSDictionary
+                    if let unwrappedData = data{
+                        
+                    let resultsDictionary = try NSJSONSerialization.JSONObjectWithData(unwrappedData, options: NSJSONReadingOptions.AllowFragments) as! NSDictionary
                     
                     if let unwrappedResult = resultsDictionary["results"] as? NSDictionary{
                         
@@ -44,7 +44,7 @@ class Sentiment140API {
                         averagePolarityValue = totalPolarityValue/tweets.count
                         completion(String(averagePolarityValue))
                     }
-
+                    }
                 } catch{
                     
                     print("it's the sentiment catch error\(data): \(error) ")
@@ -54,7 +54,7 @@ class Sentiment140API {
                 numbrtOfTweetsCheckedForPolarity += 1
  
                 
-            })
+                })
             task.resume()
         }
     }
