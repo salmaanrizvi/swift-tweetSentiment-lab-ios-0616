@@ -1,0 +1,6 @@
+framework module Pods_swift_tweetSentiment_lab {
+  umbrella header "Pods-swift-tweetSentiment-lab-umbrella.h"
+
+  export *
+  module * { export * }
+}
