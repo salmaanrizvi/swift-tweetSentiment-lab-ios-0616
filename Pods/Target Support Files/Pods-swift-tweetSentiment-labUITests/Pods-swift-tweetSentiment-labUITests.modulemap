@@ -1,6 +1,0 @@
-framework module Pods_swift_tweetSentiment_labUITests {
-  umbrella header "Pods-swift-tweetSentiment-labUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
