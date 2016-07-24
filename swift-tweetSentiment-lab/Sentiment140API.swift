@@ -20,6 +20,8 @@ class Sentiment140API {
         
         for tweet in tweets{
             
+            print(tweet["text"])
+            
             let sentiment140URL = Sentiment140API.urlFromTweet(tweet, query: query)
             let task = mySession.dataTaskWithURL(sentiment140URL, completionHandler: { (data, response, error) in
                 
