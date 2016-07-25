@@ -13,8 +13,11 @@ target 'swift-tweetSentiment-lab' do
     inherit! :search_paths
     pod 'Quick'
     pod 'Nimble'
-    pod 'OHHTTPStubs/Swift'
     pod 'OHHTTPStubs'
+    pod 'OHHTTPStubs/Swift'
+
+
+
     # Pods for testing
   end
 

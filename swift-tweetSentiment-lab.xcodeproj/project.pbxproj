@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B8D5EBB1D466A83003220AE /* fakeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D51BD1D450D980085FA56 /* fakeJSON.json */; };
+		1B8D5EBC1D466A85003220AE /* fakeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D51BD1D450D980085FA56 /* fakeJSON.json */; };
+		1BB8023D1D4651D7003594B7 /* TweetSentimentLabSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8023C1D4651D7003594B7 /* TweetSentimentLabSpec.swift */; };
 		3A6A94DDE662A6982C1D646C /* Pods_swift_tweetSentiment_labTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921F28374FD6B8DED65FA84F /* Pods_swift_tweetSentiment_labTests.framework */; };
-		3D2D51BE1D450D980085FA56 /* fakeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D51BD1D450D980085FA56 /* fakeJSON.json */; };
 		3DD986151D44263900E6E776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD986141D44263900E6E776 /* AppDelegate.swift */; };
 		3DD986171D44263900E6E776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD986161D44263900E6E776 /* ViewController.swift */; };
 		3DD9861A1D44263900E6E776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD986181D44263900E6E776 /* Main.storyboard */; };
@@ -44,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		05BD0273D6F5D8C2DA151B9E /* Pods-swift-tweetSentiment-lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-tweetSentiment-lab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-tweetSentiment-lab/Pods-swift-tweetSentiment-lab.debug.xcconfig"; sourceTree = "<group>"; };
+		1BB8023C1D4651D7003594B7 /* TweetSentimentLabSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetSentimentLabSpec.swift; sourceTree = "<group>"; };
 		3D2D51BD1D450D980085FA56 /* fakeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fakeJSON.json; sourceTree = "<group>"; };
 		3DD986111D44263900E6E776 /* swift-tweetSentiment-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-tweetSentiment-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD986141D44263900E6E776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -158,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				3DD986291D44263A00E6E776 /* swift_tweetSentiment_labTests.swift */,
+				1BB8023C1D4651D7003594B7 /* TweetSentimentLabSpec.swift */,
 				3D2D51BD1D450D980085FA56 /* fakeJSON.json */,
 				3DD9862B1D44263A00E6E776 /* Info.plist */,
 			);
@@ -192,12 +196,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DD986391D44263A00E6E776 /* Build configuration list for PBXNativeTarget "swift-tweetSentiment-lab" */;
 			buildPhases = (
+				5159D78371F05EAF1F33D338 /* 📦 Check Pods Manifest.lock */,
 				6F6482DF516F9CC6D2E025DC /* [CP] Check Pods Manifest.lock */,
 				3DD9860D1D44263900E6E776 /* Sources */,
 				3DD9860E1D44263900E6E776 /* Frameworks */,
 				3DD9860F1D44263900E6E776 /* Resources */,
 				659FAE98F9D0BE48F53B7DFD /* [CP] Embed Pods Frameworks */,
 				809CEDA6D6AAA137EC650ED2 /* [CP] Copy Pods Resources */,
+				ED56A470172EFBD6F22146C8 /* 📦 Embed Pods Frameworks */,
+				CB0B2B7811995B2D075CDE2F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,12 +219,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DD9863C1D44263A00E6E776 /* Build configuration list for PBXNativeTarget "swift-tweetSentiment-labTests" */;
 			buildPhases = (
+				35F9C24462E29BF91D90C92E /* 📦 Check Pods Manifest.lock */,
 				F76948C5C12A4759DC90BC8B /* [CP] Check Pods Manifest.lock */,
 				3DD986211D44263A00E6E776 /* Sources */,
 				3DD986221D44263A00E6E776 /* Frameworks */,
 				3DD986231D44263A00E6E776 /* Resources */,
 				5505353A7482BC3BB9A0EC21 /* [CP] Embed Pods Frameworks */,
 				D3EBB589C7585A0D82C935EB /* [CP] Copy Pods Resources */,
+				26080C9BC572C01576793F3B /* 📦 Embed Pods Frameworks */,
+				C7B0866FE2B18CBD782C3047 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,11 +243,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DD9863F1D44263A00E6E776 /* Build configuration list for PBXNativeTarget "swift-tweetSentiment-labUITests" */;
 			buildPhases = (
+				A53A30AACE74FC166EFE4E6E /* 📦 Check Pods Manifest.lock */,
 				BB91507D997BC2A24592E21F /* [CP] Check Pods Manifest.lock */,
 				3DD9862C1D44263A00E6E776 /* Sources */,
 				3DD9862D1D44263A00E6E776 /* Frameworks */,
 				3DD9862E1D44263A00E6E776 /* Resources */,
 				DDE436F622F0E168D057F7B6 /* [CP] Copy Pods Resources */,
+				731725B6040C99DF5C719F4D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,6 +311,7 @@
 			files = (
 				3DD9861F1D44263A00E6E776 /* LaunchScreen.storyboard in Resources */,
 				3DD9861C1D44263A00E6E776 /* Assets.xcassets in Resources */,
+				1B8D5EBC1D466A85003220AE /* fakeJSON.json in Resources */,
 				3DD9861A1D44263900E6E776 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D2D51BE1D450D980085FA56 /* fakeJSON.json in Resources */,
+				1B8D5EBB1D466A83003220AE /* fakeJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +334,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		26080C9BC572C01576793F3B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-tweetSentiment-labTests/Pods-swift-tweetSentiment-labTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35F9C24462E29BF91D90C92E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5159D78371F05EAF1F33D338 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		5505353A7482BC3BB9A0EC21 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,6 +424,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		731725B6040C99DF5C719F4D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-tweetSentiment-labUITests/Pods-swift-tweetSentiment-labUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		809CEDA6D6AAA137EC650ED2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,6 +454,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-tweetSentiment-lab/Pods-swift-tweetSentiment-lab-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A53A30AACE74FC166EFE4E6E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		BB91507D997BC2A24592E21F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,6 +482,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B0866FE2B18CBD782C3047 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-tweetSentiment-labTests/Pods-swift-tweetSentiment-labTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB0B2B7811995B2D075CDE2F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-tweetSentiment-lab/Pods-swift-tweetSentiment-lab-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D3EBB589C7585A0D82C935EB /* [CP] Copy Pods Resources */ = {
@@ -424,6 +542,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-tweetSentiment-labUITests/Pods-swift-tweetSentiment-labUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED56A470172EFBD6F22146C8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-tweetSentiment-lab/Pods-swift-tweetSentiment-lab-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F76948C5C12A4759DC90BC8B /* [CP] Check Pods Manifest.lock */ = {
@@ -460,6 +593,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB8023D1D4651D7003594B7 /* TweetSentimentLabSpec.swift in Sources */,
 				3DD9862A1D44263A00E6E776 /* swift_tweetSentiment_labTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
