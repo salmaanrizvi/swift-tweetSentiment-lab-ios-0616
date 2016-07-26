@@ -29,21 +29,27 @@ class Sentiment140API {
                 }
                 
                 do{
-                    if let unwrappedData = data{
+                    if let unwrappedData = data {
                         
-                    let resultsDictionary = try NSJSONSerialization.JSONObjectWithData(unwrappedData, options: NSJSONReadingOptions.AllowFragments) as! NSDictionary
-                    
-                    if let unwrappedResult = resultsDictionary["results"] as? NSDictionary{
+                        let resultsDictionary = try NSJSONSerialization.JSONObjectWithData(unwrappedData, options: NSJSONReadingOptions.AllowFragments) as! NSDictionary
                         
-                        if let polarity = unwrappedResult["polarity"] as? Int{
+                        let results = resultsDictionary["results"] as? NSDictionary
 
-                            totalPolarityValue += polarity
+                        if let unwrappedResult = results {
+                            
+                            let polarity = unwrappedResult["polarity"] as! Int
+                            
+                            let polarityInt = polarity
+                            
+                            totalPolarityValue += polarityInt
                         }
-                    }
-                    if numbrtOfTweetsCheckedForPolarity == tweets.count-1{
-                        averagePolarityValue = totalPolarityValue/tweets.count
-                        completion(String(averagePolarityValue))
-                    }
+                        
+                        if numbrtOfTweetsCheckedForPolarity == tweets.count-1{
+                            
+                            averagePolarityValue = totalPolarityValue/tweets.count
+                            
+                            completion(String(averagePolarityValue))
+                        }
                     }
                 } catch{
                     
@@ -52,9 +58,9 @@ class Sentiment140API {
                 }
                 
                 numbrtOfTweetsCheckedForPolarity += 1
- 
                 
-                })
+                
+            })
             task.resume()
         }
     }

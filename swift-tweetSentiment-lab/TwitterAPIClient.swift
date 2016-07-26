@@ -24,15 +24,15 @@ class TwitterAPIClient {
             twitter.getSearchTweetsWithQuery(query, successBlock: { (searchMetaData, statuses) in
                 
                 Sentiment140API.getPolarityOfTweets(statuses as! [NSDictionary], query: query, completion: { (completionBlock) in
-                completion(polarity: completionBlock)
-                
+                    
+                    completion(polarity: completionBlock)
                 })
                 
             }) { (error) in
                 
                 print("there was a search error: \(error.localizedDescription)")
             }
-
+            
             
         }) { (error) in
             print("there was a credentials error: \(error.localizedDescription)")

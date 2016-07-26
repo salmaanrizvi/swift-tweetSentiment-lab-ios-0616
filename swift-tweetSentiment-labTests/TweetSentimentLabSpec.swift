@@ -19,108 +19,114 @@ class TweetSentimentLabSpec: QuickSpec {
     
     override func spec() {
         
-        var httpTwitterStub: OHHTTPStubsDescriptor?
-        var httpTwitterLoginStub: OHHTTPStubsDescriptor?
-        var httpSentimentStub: OHHTTPStubsDescriptor?
         let kTwitterRequestURL = "api.twitter.com"
         let kTwitterOauthURL = "https://api.twitter.com/oauth2/token"
         let kSentimentRequestURL = "sentiment140"
-        let kPolarityOfEveryTweet = "20"
+        let kPolarityOfEveryTweet = 20
         let kTwitterQuery = "FlatironSchool"
-        var responseObject: NSDictionary = [:]
-        var loginResponse: NSDictionary = [:]
-        var jsonString = ""
-        var sentimentStubData: NSData?
+        
         
         describe("FISTwitterAPIClient()") {
+            var httpTwitterStub: OHHTTPStubsDescriptor?
+            var httpTwitterLoginStub: OHHTTPStubsDescriptor?
+            var httpSentimentStub: OHHTTPStubsDescriptor?
+            var responseObject: NSDictionary = [:]
+            var loginResponse: NSDictionary = [:]
+            var jsonString = ""
+            var sentimentStubData: NSData?
             
-            let bundle = NSBundle.mainBundle()
-            let filePath = bundle.pathForResource("fakeJSON", ofType: "json")
-//            print("file path: \(filePath)")
-            
-            if let file = filePath{
+            beforeSuite({
                 
-                let tweets = NSArray(contentsOfFile: file)
-//                print("tweets: \(tweets)")
+                let bundle = NSBundle.mainBundle()
+                let filePath = bundle.pathForResource("fakeJSON", ofType: "json")
                 
-                responseObject = ["search_metadata": ["Data": "<3"],
-                    "statuses" : tweets!]
-//                print("response object: \(responseObject)")
-                
-                loginResponse = ["access_token" : "DONALD TRUMP",
-                                     "token_type" : "bearer"]
-//                print("loginResponse object: \(loginResponse)")
-                
-                jsonString = "{\"results\": {\"polarity\": \"\(kPolarityOfEveryTweet)\"}}"
-//                print("jsonstring: \(jsonString)")
-                
-                if let sentimentData = jsonString.dataUsingEncoding(NSUTF8StringEncoding){
-                    sentimentStubData = sentimentData
-//                    print("sentimentData: \(sentimentData)")
+                if let file = filePath{
+                    
+                    let tweets = NSArray(contentsOfFile: file)
+                    
+                    responseObject = ["search_metadata": ["Data": "<3"],
+                        "statuses" : tweets!]
+                    //                    print("statuses \(responseObject)")
+                    loginResponse = ["access_token" : "DONALD TRUMP",
+                        "token_type" : "bearer"]
+                    
+                    jsonString = "{\"results\": {\"polarity\": \(kPolarityOfEveryTweet)}}"
+                    
+                    if let sentimentData = jsonString.dataUsingEncoding(NSUTF8StringEncoding){
+                        sentimentStubData = sentimentData
+                    }
                 }
-            }
-            
-        describe("getAveragePolarityOfTweetsFromQuery(_:withCompletion)", {
-            
-            OHHTTPStubs.removeAllStubs()
-            httpTwitterStub = OHHTTPStubs.stubRequestsPassingTest({ (request) -> Bool in
-                
-                if let unwrappedrequest = request.URL{
-                    
-                    return unwrappedrequest.absoluteString.containsString(kTwitterRequestURL)
-                    
-                }
-                
-                return false
-                
-                }, withStubResponse: { (request) -> OHHTTPStubsResponse in
-                    
-                    return OHHTTPStubsResponse(JSONObject: responseObject, statusCode: 200, headers:["Content-type": "application/json"])
-
             })
-            
-            
-        })
+            describe("getAveragePolarityOfTweetsFromQuery(_:withCompletion)", {
+                
+                beforeEach({
+                    
+                    OHHTTPStubs.removeAllStubs()
+                    
+                    httpTwitterStub = OHHTTPStubs.stubRequestsPassingTest({ (request) -> Bool in
+                        
+                        if let unwrappedrequest = request.URL{
+                            
+                            return unwrappedrequest.absoluteString.containsString(kTwitterRequestURL)
+                            
+                        }
+                        
+                        return false
+                        
+                        }, withStubResponse: { (request) -> OHHTTPStubsResponse in
+                            
+                            return OHHTTPStubsResponse(JSONObject: responseObject, statusCode: 200, headers:["Content-type": "application/json"])
+                    })
+                    
+                    httpTwitterLoginStub = OHHTTPStubs.stubRequestsPassingTest({ (request) -> Bool in
+                        
+                        if let unwrappedrequest = request.URL{
+                            
+                            return unwrappedrequest.absoluteString == (kTwitterOauthURL)
+                            
+                        }
+                        
+                        return false
+                        
+                        }, withStubResponse: { (request) -> OHHTTPStubsResponse in
+                            
+                            return OHHTTPStubsResponse(JSONObject: loginResponse, statusCode: 200, headers: ["Content-type" : "application/json"])
+                    })
+                    
+                    httpSentimentStub = OHHTTPStubs.stubRequestsPassingTest({ (request) -> Bool in
+                        
+                        if let unwrappedrequest = request.URL{
+                            
+                            return unwrappedrequest.absoluteString.containsString(kSentimentRequestURL)
+                            
+                        }
+                        
+                        return false
+                        
+                        }, withStubResponse: { (request) -> OHHTTPStubsResponse in
+                            
+                            return OHHTTPStubsResponse(data: sentimentStubData!, statusCode: 200, headers: nil)
+                    })
+                })
+                
+                it("should get the average polarity of tweets from the provided query.", closure: {
+                    
+                    waitUntil { done in
+                        
+                        TwitterAPIClient.getAveragePolarityOfTweetsFromQuery(kTwitterQuery, completion: { (polarity) in
+                            //                        print("polarity: \(polarity)")
+                            expect(polarity).notTo(equal(nil))
+                            expect(polarity).to(equal("20"))
+                            done()
+                        })
+                        
+                    }
+                    
+                    
+                })
+                
+            })
         }
     }
 }
-/*
- 
- httpTwitterLoginStub = [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
- return [[request.URL absoluteString] isEqualToString:kTwitterOauthURL];
- }
- withStubResponse:^OHHTTPStubsResponse*(NSURLRequest *request) {
- return [OHHTTPStubsResponse responseWithJSONObject:loginResponse
- statusCode:200
- headers:@{@"Content-type": @"application/json"}];
- }];
- 
- httpSentimentStub = [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
- return [[request.URL absoluteString] containsString:kSentimentRequestURL];
- }
- withStubResponse:^OHHTTPStubsResponse*(NSURLRequest *request) {
- return [OHHTTPStubsResponse responseWithData:sentimentStubData
- statusCode:200
- headers:nil];
- }];
- 
- });
- 
- it(@"should get the average polarity of tweets from the provided query.", ^{
- 
- waitUntil(^(DoneCallback done) {
- 
- [FISTwitterAPIClient getAveragePolarityOfTweetsFromQuery:kTwitterQuery
- withCompletion:^(NSNumber *polarity) {
- 
- expect(polarity).to.beAKindOf([NSNumber class]);
- expect(polarity).notTo.equal(nil);
- expect(polarity).to.equal(20);
- 
- done();
- }];
- });
- });
- });
- 
- */
+
