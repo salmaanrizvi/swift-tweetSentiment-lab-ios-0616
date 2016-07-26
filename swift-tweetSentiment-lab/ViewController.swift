@@ -14,12 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        TwitterAPIClient.getAveragePolarityOfTweetsFromQuery("FlatironSchool") { (polarity) in
-            NSOperationQueue.mainQueue().addOperationWithBlock({
-                self.polarityScoreLabel.text = polarity
-            })        }
-        
+                
     }
 }
 
